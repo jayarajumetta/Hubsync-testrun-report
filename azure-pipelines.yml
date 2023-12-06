@@ -17,8 +17,9 @@ steps:
 
 - script: |
     npm install
-    npm run build
-  displayName: 'npm install and build'
+    npm install -g mocha
+    npm install -g mochawesome-report-generator
+  displayName: 'npm install'
 
 - task: CmdLine@2
   inputs:
