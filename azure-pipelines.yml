@@ -17,11 +17,16 @@ steps:
 
 - script: |
     npm install -g mocha
+  displayName: 'npm install mocha'
+- script: |
     npm install -g mochawesome-report-generator
+  displayName: 'npm install mochawesome-report-generator'
+- script: |
     npm install -g axios
+  displayName: 'npm install axios'
+- script: |
     npm install
   displayName: 'npm install'
-
 - task: CmdLine@2
   inputs:
     script: |
