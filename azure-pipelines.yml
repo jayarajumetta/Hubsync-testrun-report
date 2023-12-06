@@ -29,28 +29,17 @@ steps:
       ./generate_report.sh
     workingDirectory: '$(System.DefaultWorkingDirectory)'
 
-- script: |
-    echo "<h1>Hello, this is your HTML content!</h1>" > $(Build.ArtifactStagingDirectory)/index.html
-  displayName: 'Create HTML File'
-
-- task: PublishPipelineArtifact@1
+- task: CustomEmail@1
   inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)'
-    artifact: 'html-artifact'
-  displayName: 'Publish HTML Artifact'
-
-- task: EmailTask@2
-  inputs:
-    subject: 'HTML File Notification'
-    mailFrom: 'your.email@example.com'
-    mailBody: |
-      <p>Hello,</p>
-      <p>Please find the HTML file attached.</p>
-    to: 'recipient.email@example.com'
-    attachments: '$(System.ArtifactsDirectory)/html-artifact/index.html'
-    smtpHost: 'your.smtp.server.com'
-    smtpPort: '587'
-    enableSsl: true
-    smtpUserName: 'your.email@example.com'
-    smtpPassword: 'your-email-password'
-  displayName: 'Send Email'
+    To: 'jayarajum@ideyalabs.com'
+    Cc: 'sreejam@hubsync.com'
+    From: 'sreejam@hubsync.com'
+    Subject: 'HTML File Notification'
+    Body: 'Please find the attached report'
+    AddAttachment: true
+    Attachment: '$(System.DefaultWorkingDirectory)/mochawesome-report/Hubsync_test_run_report.html'
+    SmtpServer: 'smtp.office365.com'
+    SmtpPort: '587'
+    SmtpUsername: 'sreejam@hubsync.com'
+    SmtpPassword: 'Ideyalabs&123'
+    UseSSL: true
