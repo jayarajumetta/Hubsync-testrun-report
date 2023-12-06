@@ -17,12 +17,12 @@ async function buildJson() {
     const response = fs.readFileSync(responseFile);
     // Parse the JSON data into a JavaScript object
     const responseData = JSON.parse(response);
-    console.log("Before Adding data", JSON.stringify(responseData, null, 4));
+    // console.log("Before Adding data", JSON.stringify(responseData, null, 4));
     // Read the contents of the JSON file
     const template = fs.readFileSync(templateFile);
     // Parse the JSON data into a JavaScript object
     const templateData = JSON.parse(template);
-    console.log("Before Adding data", JSON.stringify(templateData, null, 4));
+    // console.log("Before Adding data", JSON.stringify(templateData, null, 4));
     templateData.stats.tests = responseData.execution.totalTests;
     templateData.stats.testsRegistered = responseData.execution.totalTests;
     templateData.stats.failures = responseData.execution.failedCount;
@@ -90,7 +90,7 @@ async function buildJson() {
             templateData.results[0].suites[0].passes.push(randomUUID);
         }
         else {
-            console.log("Test state is unknowin" + test.executionStatus.toLowerCase());
+            console.log("Test state is unknown" + test.executionStatus.toLowerCase());
         }
         templateData.results[0].suites[0].tests.push(testResultOBJ);
     }
@@ -105,6 +105,6 @@ async function buildJson() {
 
     const update_data = fs.readFileSync(finalReportFile);
     const updated_jsonData = JSON.parse(update_data);
-    console.log("After Adding data", JSON.stringify(updated_jsonData, null, 4));
+    // console.log("After Adding data", JSON.stringify(updated_jsonData, null, 4));
 }
 buildJson()

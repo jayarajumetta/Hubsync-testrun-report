@@ -1,20 +1,15 @@
 {
-  "name": "autom8able-mochajs-starter",
+  "name": "Hubsync HTML report generator",
   "version": "1.0.0",
-  "description": "A MochaJS starter package from https://autom8able.com",
-  "main": "src/index.js",
+  "description": "Hub Sync HTML Report",
+  "main": "",
   "scripts": {
-    "test": "mocha",
-    "test:awesome": "mocha --reporter mochawesome || true",
-    "open:report": "open mochawesome-report/mochawesome.html"
+    "test": ""
   },
   "keywords": [],
-  "author": "Mitch Allen (mitchallen.com)",
+  "author": "Jayaraju Metta",
   "license": "MIT",
   "devDependencies": {
-    "axios": "^1.6.1",
-    "mocha": "^7.1.0",
-    "mochawesome": "^7.1.3"
   },
   "dependencies": {
     "jsonpath": "^1.1.1",

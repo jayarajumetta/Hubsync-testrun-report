@@ -12,7 +12,7 @@ async function extractFailedTestIDs() {
     const response = fs.readFileSync(responseFile);
     // Parse the JSON data into a JavaScript object
     const responseData = JSON.parse(response);
-    console.log("Before Adding data", JSON.stringify(responseData, null, 4));
+    // console.log("Before Adding data", JSON.stringify(responseData, null, 4));
     responseData.execution.tests.forEach(async (test) => {
         if (test.executionStatus.toLowerCase() == 'failed') {
             var resultID = test.resultId;
@@ -27,11 +27,11 @@ async function extractFailedTestScreenshots() {
     // Parse the JSON data into a JavaScript object
     const responseData = JSON.parse(response);
     // Read the contents of the JSON file
-    console.log("Before Adding data", JSON.stringify(responseData, null, 4));
+    // console.log("Before Adding data", JSON.stringify(responseData, null, 4));
     const responseFailedTest = fs.readFileSync(responseTestResultFile);
     // Parse the JSON data into a JavaScript object
     const responseFailedTestData = JSON.parse(responseFailedTest);
-    console.log("Before Adding data", JSON.stringify(responseFailedTestData, null, 4));
+    // console.log("Before Adding data", JSON.stringify(responseFailedTestData, null, 4));
     responseFailedTestData.pop();
     responseFailedTestData.forEach(async (test) => {
         var testId = test.testId;

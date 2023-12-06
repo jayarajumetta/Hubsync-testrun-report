@@ -15,7 +15,7 @@ function getExectionByName(eName) {
   const expression = `$[?(@.execution === \"${eName}\")]`;
   // Use jsonpath to find the item
   execution_id = jsonpath.query(responseExecutionData.executions,expression)[0].executionId;
-  console.log("Before Adding data", JSON.stringify(responseExecutionData, null, 4));
+  // console.log("Before Adding data", JSON.stringify(responseExecutionData, null, 4));
 }
 
 async function getAllTestResponses(url, token, page = 0) {

@@ -23,4 +23,4 @@ obj/
 .vscode/        
 mochawesome-report/
 node_modules/        
-       
+html-report/
