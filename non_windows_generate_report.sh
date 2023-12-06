@@ -1,6 +1,3 @@
-npm install -g mocha
-npm install -g mochawesome-report-generator
-npm install -g axios
 node src/get-executions.js
 node src/parse-execution.js
 node src/extractFailedTestIDs.js
