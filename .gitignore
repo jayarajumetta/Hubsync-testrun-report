@@ -19,3 +19,8 @@ obj/
 *.user
 *.unityproj
 *.booproj
+.DS_Store
+.vscode/        
+mochawesome-report/
+node_modules/        
+       
