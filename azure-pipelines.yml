@@ -38,7 +38,7 @@ steps:
     Subject: 'HTML File Notification'
     Body: 'Please find the attached report'
     AddAttachment: true
-    Attachment: '$(System.DefaultWorkingDirectory)/mochawesome-report/Hubsync_test_run_report.html'
+    Attachment: '$(System.DefaultWorkingDirectory)/mochawesome-report\report\Hubsync_test_run_report.html'
     SmtpServer: 'smtp.office365.com'
     SmtpPort: '587'
     SmtpUsername: 'sreejam@hubsync.com'
