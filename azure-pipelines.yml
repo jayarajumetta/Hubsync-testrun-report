@@ -19,6 +19,7 @@ steps:
     npm install
     npm install -g mocha
     npm install -g mochawesome-report-generator
+    npm install -g axios 
   displayName: 'npm install'
 
 - task: CmdLine@2
