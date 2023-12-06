@@ -44,3 +44,4 @@ steps:
     SmtpUsername: 'sreejam@hubsync.com'
     SmtpPassword: 'Ideyalabs&123'
     UseSSL: true
+  condition: succeededOrFailed()
