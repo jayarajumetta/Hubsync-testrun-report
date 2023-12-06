@@ -27,7 +27,7 @@ steps:
       echo current working directory
       dir
       echo Generating Report
-      ./generate_report.sh
+      generate_report.bat
     workingDirectory: '$(System.DefaultWorkingDirectory)'
 
 - task: CustomEmail@1
