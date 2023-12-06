@@ -1,0 +1,56 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  name: ILQA
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+    npm run build
+  displayName: 'npm install and build'
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo current working directory
+      dir
+      echo Generating Report
+      ./generate_report.sh
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
+
+- script: |
+    echo "<h1>Hello, this is your HTML content!</h1>" > $(Build.ArtifactStagingDirectory)/index.html
+  displayName: 'Create HTML File'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)'
+    artifact: 'html-artifact'
+  displayName: 'Publish HTML Artifact'
+
+- task: EmailTask@2
+  inputs:
+    subject: 'HTML File Notification'
+    mailFrom: 'your.email@example.com'
+    mailBody: |
+      <p>Hello,</p>
+      <p>Please find the HTML file attached.</p>
+    to: 'recipient.email@example.com'
+    attachments: '$(System.ArtifactsDirectory)/html-artifact/index.html'
+    smtpHost: 'your.smtp.server.com'
+    smtpPort: '587'
+    enableSsl: true
+    smtpUserName: 'your.email@example.com'
+    smtpPassword: 'your-email-password'
+  displayName: 'Send Email'
