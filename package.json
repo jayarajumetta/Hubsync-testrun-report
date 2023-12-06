@@ -19,6 +19,9 @@
   "dependencies": {
     "jsonpath": "^1.1.1",
     "request": "^2.88.2",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "axios": "^1.6.1",
+    "mocha": "^7.1.0",
+    "mochawesome": "^7.1.3"
   }
 }
