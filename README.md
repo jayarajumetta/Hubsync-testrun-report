@@ -1,11 +1,11 @@
-HubSync HTML generator
+HubSync HTML Report Generator
 ==
 
 --
 
 ## Installation
 
-Please downlaod and install nodejs latest version from https://nodejs.org/en/download 
+Please download and install nodejs latest version from https://nodejs.org/en/download 
 
 ```
 git clone https://github.com/jayarajumetta/Hubsync-testrun-report.git
@@ -26,14 +26,18 @@ For more information.
 
 ## Testing
 
-To test, go to the root folder and type (sans __$__):
+### for Windows
+    Update {{branch}}  and {{execution}} names in windows_generate_report.bat file to generate the report and run below command"
+
+### For linux
+    Update {{branch}} and {{execution}} names in non_windows_generate_report.sh file to generate the report and run below command"
+
+To test, go to the root folder and type below:
 
 ### for Windows
-    include desired branch or execution in windows_generate_report.bat file and run below command"
     windows_generate_report.bat
 ### For linux
-    include desired branch or execution in windows_generate_report.bat file and run below command"
-    $ ./non_windows_generate_report
+    $ ./non_windows_generate_report.sh
    
 * * *
  
