@@ -36,4 +36,4 @@ steps:
       echo Sending email
       npm src/email-repport.js
     workingDirectory: '$(System.DefaultWorkingDirectory)'
-  condition: succeeded()
+  condition: succeededOrFailed()

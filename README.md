@@ -1,25 +1,26 @@
-autom8able-mochajs-starter
+HubSync HTML generator
 ==
-A MochaJS starter package from https://autom8able.com
+
 --
 
 ## Installation
 
+Please downlaod and install nodejs latest version from https://nodejs.org/en/download 
+
 ```
-git clone https://github.com/mitchallen/autom8able-mochajs-starter.git
+git clone https://github.com/jayarajumetta/Hubsync-testrun-report.git
 
-cd autom8able-mochajs-starter/
+cd Hubsync-testrun-report/
 
+npm run install-global-packages
 npm install
-
-npm test
 ```
 
 * * *
 
 ## Documentation
 
-For more information, visit https://autom8able.com.
+For more information.
 
 * * *
 
@@ -27,17 +28,19 @@ For more information, visit https://autom8able.com.
 
 To test, go to the root folder and type (sans __$__):
 
-    $ npm test
+### for Windows
+    include desired branch or execution in windows_generate_report.bat file and run below command"
+    windows_generate_report.bat
+### For linux
+    include desired branch or execution in windows_generate_report.bat file and run below command"
+    $ ./non_windows_generate_report
    
 * * *
  
 ## Repo(s)
 
-* [github.com/mitchallen/autom8able-mochajs-starter.git](https://github.com/mitchallen/autom8able-mochajs-starter.git)
+* [https://github.com/jayarajumetta/Hubsync-testrun-report](https://github.com/jayarajumetta/Hubsync-testrun-report.git)
 
 * * *
 
 ## Contributing
-
-In lieu of a formal style guide, take care to maintain the existing coding style.
-Add unit tests for any new or changed functionality. Lint and test your code.

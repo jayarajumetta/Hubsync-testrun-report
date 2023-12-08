@@ -15,8 +15,10 @@ function sendMail() {
   const mailOptions = {
     from: 'testresultsnotifier@gmail.com',
     to: 'jayarajum@ideyalabs.com',
-    subject: 'HTML File Notification',
-    text: 'Run Finished and attached is the file',
+    cc:['mounikamada@ideyalabs.com','71956f6e.ideyalabs.com@amer.teams.ms'],
+    bcc:'sreejam@ideyalabs.com',
+    subject: 'Hubsync Test Run Summary Report',
+    text: 'Hello, test run finished and please the attached test results summary file',
     attachments: [
       {
         filename: 'Hubsync_test_run_report.html',
