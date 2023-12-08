@@ -27,17 +27,25 @@ For more information.
 ## Testing
 
 ### for Windows
-    Update {{branch}}  and {{execution}} names in windows_generate_report.bat file to generate the report and run below command"
+    Update `branch` and `execution` names in windows_generate_report.bat file to generate the report by running below command
+    [Example command]: 
+    ```
+    node src/get-executions.js -branch:"Unmerged scripts" -execution:"End to End - All / Regression"
 
-### For linux
-    Update {{branch}} and {{execution}} names in non_windows_generate_report.sh file to generate the report and run below command"
+    ```
+### For linux or ubuntu or mac
+    Update `branch` and `execution` namesnames in non_windows_generate_report.sh file to generate the report and run below command
+    [Example command]: 
+    ```
+    node src/get-executions.js -branch:"Unmerged scripts" -execution:"End to End - All / Regression"
 
+    ```
 To test, go to the root folder and type below:
 
-### for Windows
-    windows_generate_report.bat
-### For linux
-    $ ./non_windows_generate_report.sh
+### run below command on Windows
+    `windows_generate_report.bat`
+### Run below command on linux/mac/ubuntu
+    $ `./non_windows_generate_report.sh`
    
 * * *
  
