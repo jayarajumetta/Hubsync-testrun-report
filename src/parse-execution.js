@@ -3,20 +3,36 @@ const fs = require('fs');
 var responseFile = './report/testim_response.json';
 var executionListFile = './report/testim_execution_list_response.json';
 const jsonpath = require('jsonpath');
+var apiUrl;
 
 const token = 'PAK-xkKZmb9M38qKTn-KSVDETY9y22fS7N4vmZCTHtfXp/Xd4SHFR5gwgzTrAUJz9PJBWnzVJ2j/d/nI2vZ3G';
-let execution_id;
-
+var executionId;
+const args = process.argv.slice(2);
+console.log('Arguments:', args);
 function getExectionByName(eName) {
+  let isExecutionIdSet = false;
+  args.forEach(v => { 
+    if(v.includes("executionId")){
+      isExecutionIdSet = true;
+    } 
+  });
+  if (!isExecutionIdSet) {
+  fs.writeFileSync(responseFile, JSON.stringify({}, null, 2));
   // Read the contents of the JSON file
   const responseExecutionList = fs.readFileSync(executionListFile);
   // Parse the JSON data into a JavaScript object
   const responseExecutionData = JSON.parse(responseExecutionList);
   const expression = `$[?(@.execution === \"${eName}\")]`;
   // Use jsonpath to find the item
-  execution_id = jsonpath.query(responseExecutionData.executions,expression)[0].executionId;
+  executionId = jsonpath.query(responseExecutionData.executions,expression)[0].executionId;
+  apiUrl = `https://api.testim.io/v2/runs/executions/${executionId}?page=0&pageSize=200000`;
+  console.log(apiUrl);
+
   // console.log("Before Adding data", JSON.stringify(responseExecutionData, null, 4));
-}
+  }
+  else{
+    console.log("Passed Arguments"+args)
+  }}
 
 async function getAllTestResponses(url, token, page = 0) {
   try {
@@ -39,8 +55,30 @@ async function getAllTestResponses(url, token, page = 0) {
     console.error('Error:', error);
   }
 }
-const execution_name = "End to End - All / Regression";
-const apiUrl = `https://api.testim.io/v2/runs/executions/${execution_id}?page=0&pageSize=200000`;
-
-getExectionByName(execution_name)
+let execution;
+args.forEach(arg => { 
+  if(arg.includes("executionId")){
+    console.log("executionId is included in args");
+  }
+  else{
+    if(arg.split(':')[0].includes('branch')){
+      branch = arg.split(':')[1];
+      console.log("Included in args:"+args);
+    }
+    else if(arg.split(':')[0].includes('execution')){
+      execution = arg.split(':')[1];
+      console.log("Included in args:"+args);
+    }
+    else if(arg.split(':')[0].includes('executionId')){
+      executionId = arg.split(':')[1];
+      console.log("Included in args:"+args);
+      apiUrl = `https://api.testim.io/v2/runs/executions/${executionId}?page=0&pageSize=200000`;
+      console.log(apiUrl);
+    }
+    else{
+      console.log("Included in args:"+args);
+    }
+  }
+});
+getExectionByName(execution)
 getAllTestResponses(apiUrl, token);

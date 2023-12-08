@@ -13,6 +13,7 @@ const { Console } = require('console');
 const token = 'PAK-xkKZmb9M38qKTn-KSVDETY9y22fS7N4vmZCTHtfXp/Xd4SHFR5gwgzTrAUJz9PJBWnzVJ2j/d/nI2vZ3G';
 let failureIDs = [];
 async function buildJson() {
+    fs.writeFileSync(finalReportFile, JSON.stringify({}, null, 2));
     // Read the contents of the JSON file
     const response = fs.readFileSync(responseFile);
     // Parse the JSON data into a JavaScript object

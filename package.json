@@ -4,19 +4,18 @@
   "description": "Hub Sync HTML Report",
   "main": "",
   "scripts": {
-    "test": ""
+    "install-global-packages": "npm install -g mocha mochawesome-report-generator axios"
   },
   "keywords": [],
   "author": "Jayaraju Metta",
   "license": "MIT",
-  "devDependencies": {
-  },
   "dependencies": {
-    "jsonpath": "^1.1.1",
-    "request": "^2.88.2",
-    "uuid": "^9.0.1",
     "axios": "^1.6.1",
+    "jsonpath": "^1.1.1",
     "mocha": "^7.1.0",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "nodemailer": "^6.9.7",
+    "request": "^2.88.2",
+    "uuid": "^9.0.1"
   }
 }

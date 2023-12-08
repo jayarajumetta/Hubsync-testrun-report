@@ -1,5 +1,5 @@
 {
-  "totalRecords": 7,
+  "totalRecords": 9,
   "page": 0,
   "pageSize": 200,
   "executions": [
@@ -19,40 +19,6 @@
       "turboMode": false,
       "resultLabels": [],
       "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Ly1Rm6t0BIlnje9s"
-    },
-    {
-      "execution": "End to End - QA / Regression",
-      "executionId": "PNPv1eTZRShgdU0o",
-      "executionResult": "ABORTED",
-      "duration": 904.365,
-      "totalTests": 480,
-      "failedCount": 6,
-      "concurrency": 1,
-      "branch": "Unmerged scripts",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-03T04:14:44.109Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/PNPv1eTZRShgdU0o"
-    },
-    {
-      "execution": "End to End - QA / Regression",
-      "executionId": "3SGOKP7k3WikHNUz",
-      "executionResult": "ABORTED",
-      "duration": 5978.572,
-      "totalTests": 480,
-      "failedCount": 11,
-      "concurrency": 1,
-      "branch": "Unmerged scripts",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-03T04:33:11.186Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/3SGOKP7k3WikHNUz"
     },
     {
       "execution": "End to End - QA / Regression",
@@ -121,9 +87,77 @@
       "turboMode": false,
       "resultLabels": [],
       "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/dcfpIN7NshQHqnzn"
+    },
+    {
+      "execution": "End to End - QA / Regression",
+      "executionId": "PNPv1eTZRShgdU0o",
+      "executionResult": "ABORTED",
+      "duration": 904.365,
+      "totalTests": 480,
+      "failedCount": 6,
+      "concurrency": 1,
+      "branch": "Unmerged scripts",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-03T04:14:44.109Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/PNPv1eTZRShgdU0o"
+    },
+    {
+      "execution": "End to End - QA / Regression",
+      "executionId": "3SGOKP7k3WikHNUz",
+      "executionResult": "ABORTED",
+      "duration": 5978.572,
+      "totalTests": 480,
+      "failedCount": 11,
+      "concurrency": 1,
+      "branch": "Unmerged scripts",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-03T04:33:11.186Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/3SGOKP7k3WikHNUz"
+    },
+    {
+      "execution": "e2e-all / Regression",
+      "executionId": "A4RycGxc6AJRPDyq",
+      "executionResult": "FAILED",
+      "duration": 33003.815,
+      "totalTests": 581,
+      "failedCount": 214,
+      "concurrency": 3,
+      "branch": "Unmerged scripts",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-07T17:32:13.864Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/A4RycGxc6AJRPDyq"
+    },
+    {
+      "execution": "e2e-all / Regression",
+      "executionId": "heC8fpLrC0cVPUfB",
+      "executionResult": "FAILED",
+      "duration": 33901.946,
+      "totalTests": 581,
+      "failedCount": 209,
+      "concurrency": 3,
+      "branch": "Unmerged scripts",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-07T17:30:37.166Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/heC8fpLrC0cVPUfB"
     }
   ],
   "metaData": {
-    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-e336b83c-8e54-49f9-930e-18e21cd16f1d"
+    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-d227e771-7d3e-49e2-8159-99a0b7af9000"
   }
 }
