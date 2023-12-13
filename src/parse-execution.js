@@ -22,7 +22,21 @@ function getExectionByName(eName) {
   const responseExecutionList = fs.readFileSync(executionListFile);
   // Parse the JSON data into a JavaScript object
   const responseExecutionData = JSON.parse(responseExecutionList);
-  const expression = `$[?(@.execution === \"${eName}\")]`;
+
+  const executionList = fs.readFileSync(executionListFile);
+  // Parse the JSON data into a JavaScript object
+  const executionListData = JSON.parse(executionList);
+
+  // Custom comparator function for sorting by ISO date
+  const sortByIsoString = (a, b) => new Date(b.startTime) - new Date(a.startTime);
+  // Sort the JSON array based on isoString key
+  executionListData.executions.sort(sortByIsoString);
+  // Now, jsonArray is sorted by isoString
+  console.log(executionListData.executions);
+  // Write the response data to a file
+  fs.writeFileSync(executionListFile, JSON.stringify(executionListData, null, 2));
+
+  const expression = `$[?(@.execution === \"${eName}\" && !(@.executionResult === \"ABORTED\"))]`;
   // Use jsonpath to find the item
   executionId = jsonpath.query(responseExecutionData.executions,expression)[0].executionId;
   apiUrl = `https://api.testim.io/v2/runs/executions/${executionId}?page=0&pageSize=200000`;
