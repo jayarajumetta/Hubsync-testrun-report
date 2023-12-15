@@ -52,8 +52,7 @@ const formattedLastWeekDate = `${month}-${day}-${year}`;
 
 console.log(formattedLastWeekDate);
 
-// const branchname = "Unmerged scripts";
-// const executionName = "End to End - All / Regression";
+
 let branch;
 let execution;
 let apiUrl;
@@ -75,6 +74,9 @@ args.forEach(arg => {
     }
   }
 });
-apiUrl = `https://api.testim.io/runs/executions?fromDate=${formattedLastWeekDate}&branch=${branch}&name=${execution}`;
+branch="master"
+execution="End to End-All-Sequential / Regression2-Sequential"
+
+apiUrl = `https://api.testim.io/runs/executions?fromDate=${formattedLastWeekDate}&branch=${branch}&name=${execution}&page=0&pageSize=500`;
 console.log(apiUrl);
 getAllTestResponses(apiUrl, token);
