@@ -14,11 +14,11 @@ function sendMail() {
   // Define the email options
   const mailOptions = {
     from: 'testresultsnotifier@gmail.com',
-    to: ['ssaini@hubsync.com','jayarajum@ideyalabs.com','aukshini@hubsync.com','nmusliu@hubsync.com'],
-    cc:['mounikamada@ideyalabs.com','71956f6e.ideyalabs.com@amer.teams.ms'],
-    bcc:'sreejam@ideyalabs.com',
+    to: ['ssaini@hubsync.com','asingh@hubsync.com','aukshini@hubsync.com','sreejam@hubsync.com'],
+    cc:['jayarajum@ideyalabs.com','71956f6e.ideyalabs.com@amer.teams.ms'],
+    bcc:'mounikamada@ideyalabs.com',
     subject: 'Hubsync Test Run Summary Report',
-    text: 'Hello, test run finished and please the attached test results summary file',
+    text: 'Hello team,\n test run has finished and please find the attached test results summary report',
     attachments: [
       {
         filename: 'Hubsync_test_run_report.html',

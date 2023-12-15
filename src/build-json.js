@@ -31,7 +31,6 @@ async function buildJson() {
 
     templateData.stats.start = responseData.execution.startTime;
     templateData.stats.duration = responseData.execution.duration;
-    templateData.stats.passPercent = ((responseData.execution.totalTests - responseData.execution.failedCount) / responseData.execution.totalTests) * 100
     templateData.results[0].suites[0].title = responseData.execution.execution;
     templateData.results[0].suites[0].duration = responseData.execution.duration;
     responseData.execution.tests.forEach(async (test) => {
@@ -90,12 +89,22 @@ async function buildJson() {
             testResultOBJ.context = "";
             templateData.results[0].suites[0].passes.push(randomUUID);
         }
+        else if (test.executionStatus.toLowerCase() == 'skipped') {
+            testResultOBJ.skipped = true;
+            testResultOBJ.err.diff = "- 'SKIPPED'\n+ 'PASSED'\n";
+            testResultOBJ.context = "";
+            templateData.results[0].suites[0].skipped.push(randomUUID);
+        }
         else {
             console.log("Test state is unknown" + test.executionStatus.toLowerCase());
         }
         templateData.results[0].suites[0].tests.push(testResultOBJ);
     }
     );
+    templateData.stats.passes = templateData.results[0].suites[0].passes.length;
+    templateData.stats.skipped = templateData.results[0].suites[0].skipped.length;
+    templateData.stats.passPercent = ((responseData.execution.totalTests - responseData.execution.failedCount) / responseData.execution.totalTests) * 100
+
     // Convert the JavaScript object back into a JSON string
     const reportString = JSON.stringify(templateData, null, 2);
 

@@ -30,14 +30,17 @@ For more information.
     Update `branch` and `execution` names in windows_generate_report.bat file to generate the report by running below command
     Example command: 
     ```sh
-    node src/get-executions.js -branch:"Unmerged scripts" -execution:"End to End - All / Regression"
+    branch:"Unmerged scripts"
+    execution:"End to End - All / Regression"
 
     ```
 ### for linux/ubuntu/mac
     Update `branch` and `execution` namesnames in non_windows_generate_report.sh file to generate the report and run below command
     Example command: 
     ```sh
-    node src/get-executions.js -branch:"Unmerged scripts" -execution:"End to End - All / Regression"
+
+    branch:"Unmerged scripts"
+    execution:"End to End - All / Regression"
 
     ```
 To test, go to the root folder and type below:

@@ -35,10 +35,12 @@ function getExectionByName(eName) {
   console.log(executionListData.executions);
   // Write the response data to a file
   fs.writeFileSync(executionListFile, JSON.stringify(executionListData, null, 2));
-
+  // eName = "End to End-All-Sequential / Regression2-Sequential";
   const expression = `$[?(@.execution === \"${eName}\" && !(@.executionResult === \"ABORTED\"))]`;
+  let executionArray = jsonpath.query(responseExecutionData.executions,expression);
+  executionId = executionArray.sort(sortByIsoString)[0].executionId;
   // Use jsonpath to find the item
-  executionId = jsonpath.query(responseExecutionData.executions,expression)[0].executionId;
+  // executionId = jsonpath.query(responseExecutionData.executions,expression)[0].executionId;
   apiUrl = `https://api.testim.io/v2/runs/executions/${executionId}?page=0&pageSize=200000`;
   console.log(apiUrl);
 
