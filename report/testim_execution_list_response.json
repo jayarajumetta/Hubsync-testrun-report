@@ -1,8 +1,59 @@
 {
-  "totalRecords": 22,
+  "totalRecords": 14,
   "page": 0,
   "pageSize": 500,
   "executions": [
+    {
+      "execution": "End to End-All-Sequential / Regression2-Sequential",
+      "executionId": "CckXpFvpY68WL8AS",
+      "executionResult": "FAILED",
+      "duration": 9666.628,
+      "totalTests": 50,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-18T05:00:18.939Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/CckXpFvpY68WL8AS"
+    },
+    {
+      "execution": "End to End-All-Parallel / Regression1-Parallel",
+      "executionId": "dW35Zf9v7vjPkVXB",
+      "executionResult": "FAILED",
+      "duration": 15234.091,
+      "totalTests": 532,
+      "failedCount": 53,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-17T22:00:22.284Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/dW35Zf9v7vjPkVXB"
+    },
+    {
+      "execution": "End to End-All-Sequential / Regression2-Sequential",
+      "executionId": "2by0w3QdDqyh3hI6",
+      "executionResult": "FAILED",
+      "duration": 9774.074,
+      "totalTests": 50,
+      "failedCount": 4,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-15T10:00:14.176Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2by0w3QdDqyh3hI6"
+    },
     {
       "execution": "End to End-All-Sequential / Regression2-Sequential",
       "executionId": "CTx06s3zCmscajT8",
@@ -192,196 +243,9 @@
       "turboMode": false,
       "resultLabels": [],
       "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EG3b819cui85Kyiq"
-    },
-    {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "3PFYj1i6hFiO9DTi",
-      "executionResult": "FAILED",
-      "duration": 10961.249,
-      "totalTests": 496,
-      "failedCount": 138,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:34:46.049Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/3PFYj1i6hFiO9DTi"
-    },
-    {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "BQfh1DBkSlrVJVMw",
-      "executionResult": "ABORTED",
-      "duration": 26.556,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:30:38.688Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/BQfh1DBkSlrVJVMw"
-    },
-    {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "bNrpjqyhuiSXAmvF",
-      "executionResult": "ABORTED",
-      "duration": 26.777,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:30:38.688Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/bNrpjqyhuiSXAmvF"
-    },
-    {
-      "execution": "End to End-All-parallel / Regression1-Parallel",
-      "executionId": "qDqaDXoetNpGFoSY",
-      "executionResult": "ABORTED",
-      "duration": 51.128,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:27:39.898Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/qDqaDXoetNpGFoSY"
-    },
-    {
-      "execution": "End to End-All-parallel / Regression1-Parallel",
-      "executionId": "39uSKu0DnpF4pMy7",
-      "executionResult": "ABORTED",
-      "duration": 51.128,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:27:39.898Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/39uSKu0DnpF4pMy7"
-    },
-    {
-      "execution": "End to End-All-parallel / Regression1-Parallel",
-      "executionId": "Oe6FZWgnKl2e47TL",
-      "executionResult": "ABORTED",
-      "duration": 24.177,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:26:54.419Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Oe6FZWgnKl2e47TL"
-    },
-    {
-      "execution": "End to End-All-parallel / Regression1-Parallel",
-      "executionId": "YhODzh6Ch99h1BTz",
-      "executionResult": "ABORTED",
-      "duration": 24.177,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:26:54.419Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/YhODzh6Ch99h1BTz"
-    },
-    {
-      "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "Bmjw10IO2xrqI5uM",
-      "executionResult": "FAILED",
-      "duration": 13524.865,
-      "totalTests": 93,
-      "failedCount": 47,
-      "concurrency": 1,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:26:54.305Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Bmjw10IO2xrqI5uM"
-    },
-    {
-      "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "Dt2cslSXDH1MWIXg",
-      "executionResult": "ABORTED",
-      "duration": 16.146,
-      "totalTests": 56,
-      "failedCount": 0,
-      "concurrency": 1,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:23:31.873Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Dt2cslSXDH1MWIXg"
-    },
-    {
-      "execution": "End to End-All-parallel / Regression1-Parallel",
-      "executionId": "GfhG9rcoQPTB9siU",
-      "executionResult": "ABORTED",
-      "duration": 24.508,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:23:31.179Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/GfhG9rcoQPTB9siU"
-    },
-    {
-      "execution": "End to End-All-parallel / Regression1-Parallel",
-      "executionId": "MqyuUs2MuiaORrZU",
-      "executionResult": "ABORTED",
-      "duration": 24.508,
-      "totalTests": 496,
-      "failedCount": 0,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-08T09:23:31.179Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/MqyuUs2MuiaORrZU"
     }
   ],
   "metaData": {
-    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-01cdde0b-3a27-4cfd-b2bf-8fa2f1c5173e"
+    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-1617454f-3662-48f8-adf3-f092aeb22610"
   }
 }

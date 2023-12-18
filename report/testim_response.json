@@ -1,601 +1,604 @@
 {
   "execution": {
-    "id": "gUbTGgfVxZpXcEtF",
-    "startTime": "2023-12-14T07:39:12.109Z",
+    "id": "CckXpFvpY68WL8AS",
+    "startTime": "2023-12-18T05:00:18.939Z",
     "source": "scheduler",
     "branch": "master",
     "tests": [
       {
-        "id": "k3ObHloh1aDVcIFd",
-        "testName": "Dashboard14-Verify the functionalities of organizer reader user in dashboard",
-        "resultId": "0ikP9xXUEpxSgIF6",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/k3ObHloh1aDVcIFd?result-id=0ikP9xXUEpxSgIF6",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:11:53.318Z",
-        "duration": 155369,
-        "additionalAttempts": []
-      },
-      {
-        "id": "dNxLHoIIIkerwT8r",
-        "testName": "Dashboard12-Verify editor user is able to access the dashboard",
-        "resultId": "2ZfWc6QarAOrgflA",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/dNxLHoIIIkerwT8r?result-id=2ZfWc6QarAOrgflA",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:03:44.952Z",
-        "duration": 161586,
-        "additionalAttempts": []
-      },
-      {
-        "id": "bU3SpOla16BUhlMO",
-        "testName": "Dashboard16-Verify administrator functionality in dashboard                                                                  ",
-        "resultId": "2u1NfWVC79a4kEka",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/bU3SpOla16BUhlMO?result-id=2u1NfWVC79a4kEka",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:17:46.568Z",
-        "duration": 136362,
-        "additionalAttempts": []
-      },
-      {
-        "id": "LfvlmCVodvOXsn5W",
-        "testName": "Dashboard2-Verify resize of the tiles",
-        "resultId": "3bjs2zsrkmNTigYG",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/LfvlmCVodvOXsn5W?result-id=3bjs2zsrkmNTigYG",
-        "executionStatus": "Skipped",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "N/A",
-        "duration": "N/A",
-        "additionalAttempts": []
-      },
-      {
-        "id": "eTVGptYkBnbjWl3s",
-        "testName": "8879 Entities13-signing 1120 envelope",
-        "resultId": "4h2o3eALVZN8lkC1",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/eTVGptYkBnbjWl3s?result-id=4h2o3eALVZN8lkC1",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:16:49.422Z",
-        "duration": 385231,
-        "additionalAttempts": []
-      },
-      {
-        "id": "WHniwANqemYnjGmq",
-        "testName": "8879 Entities - Column , signing 1040 file",
-        "resultId": "5l51Ii3p173zoi1a",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/WHniwANqemYnjGmq?result-id=5l51Ii3p173zoi1a",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T10:18:23.698Z",
-        "duration": 390662,
-        "additionalAttempts": []
-      },
-      {
-        "id": "nYiaumVjGP4x6AtO",
-        "testName": "8879 Entities1-Verify signing 1120s envelope",
-        "resultId": "5vvuUxYLgWsbznbt",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/nYiaumVjGP4x6AtO?result-id=5vvuUxYLgWsbznbt",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:25:33.232Z",
-        "duration": 304114,
-        "additionalAttempts": []
-      },
-      {
-        "id": "z4Je7OVxphtszb3G",
-        "testName": "8879 Entities5-Verify signing 1041 envelope",
-        "resultId": "9ehROVyvDlY4CR5D",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/z4Je7OVxphtszb3G?result-id=9ehROVyvDlY4CR5D",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:44:40.704Z",
-        "duration": 234864,
-        "additionalAttempts": []
-      },
-      {
-        "id": "oBIcN9xkWtlUKDUX",
-        "testName": "8879 Entities12-Verify Declining 1065 envelope",
-        "resultId": "AWNcruz20pyy4N6Y",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/oBIcN9xkWtlUKDUX?result-id=AWNcruz20pyy4N6Y",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:12:34.422Z",
-        "duration": 243295,
-        "additionalAttempts": []
-      },
-      {
-        "id": "3fXSVAsDo75QsHOZ",
-        "testName": "8879 Entities11-Verify cancelling 1065 envelope",
-        "resultId": "AvIK3fmmM7cMnOeX",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/3fXSVAsDo75QsHOZ?result-id=AvIK3fmmM7cMnOeX",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:08:34.906Z",
-        "duration": 211398,
-        "additionalAttempts": []
-      },
-      {
-        "id": "5wI9wssEDyEAww6H",
-        "testName": "Dashboard9-Verify functionality of return progress tile",
-        "resultId": "B3rbVeVn8TwA1UtN",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/5wI9wssEDyEAww6H?result-id=B3rbVeVn8TwA1UtN",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:57:46.170Z",
-        "duration": 73664,
-        "additionalAttempts": []
-      },
-      {
-        "id": "A7C7zN83xDJbwiRL",
-        "testName": "8879 Entities19-Verify changing the email address of taxpayer , spouse and resending envelope of 1040",
-        "resultId": "CIAGVPOcOfYYm0QY",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/A7C7zN83xDJbwiRL?result-id=CIAGVPOcOfYYm0QY",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:38:34.291Z",
-        "duration": 291679,
-        "additionalAttempts": []
-      },
-      {
-        "id": "YemHjLSHf2Io1HnJ",
-        "testName": "8879 Entities2_Verify resending envelope for 1120(s)",
-        "resultId": "CpSD0xI7aJyciJDD",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/YemHjLSHf2Io1HnJ?result-id=CpSD0xI7aJyciJDD",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:31:17.882Z",
-        "duration": 157498,
-        "additionalAttempts": []
-      },
-      {
-        "id": "t3cgU48KBaFXfetB",
-        "testName": "8879 Entities15-Verify changing email address of spouse and resend envelope",
-        "resultId": "E2UBXpgJojfyoeV5",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/t3cgU48KBaFXfetB?result-id=E2UBXpgJojfyoeV5",
-        "executionStatus": "Skipped",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "N/A",
-        "duration": "N/A",
-        "additionalAttempts": []
-      },
-      {
-        "id": "xUTwBkRRbSwo3CLU",
-        "testName": "Dashboard20-Verify 1040 Hub functionality in Dashboard",
-        "resultId": "EY8Hnee1jIOr4cZD",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/xUTwBkRRbSwo3CLU?result-id=EY8Hnee1jIOr4cZD",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:22:38.774Z",
-        "duration": 61611,
-        "additionalAttempts": []
-      },
-      {
-        "id": "ctO5NpaymnuqxkLC",
-        "testName": "Dashboard21-Verify Engagement letter status tile functionality in Dashboard",
-        "resultId": "EqJEzDwtL2KYPfVU",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/ctO5NpaymnuqxkLC?result-id=EqJEzDwtL2KYPfVU",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:24:16.063Z",
-        "duration": 66867,
-        "additionalAttempts": []
-      },
-      {
-        "id": "7hzM2vCkLtysvqKX",
-        "testName": "Dashboard8-Verify quick link functionalities tile",
-        "resultId": "GF9fMBlpN8U6LG6c",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/7hzM2vCkLtysvqKX?result-id=GF9fMBlpN8U6LG6c",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:55:35.928Z",
-        "duration": 120966,
-        "additionalAttempts": []
-      },
-      {
-        "id": "rNWWmwknq1BReKml",
-        "testName": "8879 Entities23-Verify user permissions for organizer editor",
-        "resultId": "GVtnmVTiP1Ssg6hW",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/rNWWmwknq1BReKml?result-id=GVtnmVTiP1Ssg6hW",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:55:16.815Z",
-        "duration": 230874,
-        "additionalAttempts": []
-      },
-      {
-        "id": "xJk6wXg5SNd9LbHT",
-        "testName": "8879 Entities20-Verify cancelling 1040 return type",
-        "resultId": "Geirta9jvaYkycMf",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/xJk6wXg5SNd9LbHT?result-id=Geirta9jvaYkycMf",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:43:49.206Z",
-        "duration": 200691,
-        "additionalAttempts": []
-      },
-      {
-        "id": "pu68LcSyI8OCz3wu",
-        "testName": "Dashboard17-Verify functionality of Recent Workspaces",
-        "resultId": "JZjoGlFTYmcQXy2Z",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/pu68LcSyI8OCz3wu?result-id=JZjoGlFTYmcQXy2Z",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:48:41.634Z",
-        "duration": 62200,
-        "additionalAttempts": []
-      },
-      {
-        "id": "IMgHpRCsRqHOW0e2",
-        "testName": "8879 Entities8-Verify Declining 1041 envelope",
-        "resultId": "OBoGcvjGbg9rKqkE",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/IMgHpRCsRqHOW0e2?result-id=OBoGcvjGbg9rKqkE",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:54:30.086Z",
-        "duration": 195488,
-        "additionalAttempts": []
-      },
-      {
-        "id": "InVKoUcvLnWmXtcd",
-        "testName": "8879 Entities10-Verify resending 1065 envelope",
-        "resultId": "OTFeNDhHekSq4UdB",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/InVKoUcvLnWmXtcd?result-id=OTFeNDhHekSq4UdB",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:03:35.678Z",
-        "duration": 249641,
-        "additionalAttempts": []
-      },
-      {
-        "id": "QFNKT1GXs86tpmGb",
-        "testName": "8879 Entities24-Verify user permissions for organizer reader user",
-        "resultId": "PclMnEgcbHfMgGVg",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/QFNKT1GXs86tpmGb?result-id=PclMnEgcbHfMgGVg",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:59:20.643Z",
-        "duration": 247004,
-        "additionalAttempts": []
-      },
-      {
-        "id": "vCHSQ7lywHLJXfWS",
-        "testName": "8879 Entities27-Verify uploading files",
-        "resultId": "SIWhTjsUDz3OZT9R",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/vCHSQ7lywHLJXfWS?result-id=SIWhTjsUDz3OZT9R",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T10:13:38.893Z",
-        "duration": 272313,
-        "additionalAttempts": []
-      },
-      {
-        "id": "pAIYOGoSXPNEkVM4",
-        "testName": "8879 Entities6-Verify Resending 1041 envelope",
-        "resultId": "TASNlZuoL59M4Tr5",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/pAIYOGoSXPNEkVM4?result-id=TASNlZuoL59M4Tr5",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:48:45.740Z",
-        "duration": 168135,
-        "additionalAttempts": []
-      },
-      {
-        "id": "NEZeN68hpGISoSys",
-        "testName": "Dashboard13-Verify dashboard functionality for organizer editor role",
-        "resultId": "UiAdcz5mJOfTWYp4",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/NEZeN68hpGISoSys?result-id=UiAdcz5mJOfTWYp4",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:07:51.106Z",
-        "duration": 170846,
-        "additionalAttempts": []
-      },
-      {
-        "id": "ZpaLyhEdEKAFsMN0",
-        "testName": "8879 Entities16-Verify cancelling 1120 envelope",
-        "resultId": "VMWw5rSxXh8Lb4MB",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/ZpaLyhEdEKAFsMN0?result-id=VMWw5rSxXh8Lb4MB",
-        "executionStatus": "Skipped",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "N/A",
-        "duration": "N/A",
-        "additionalAttempts": []
-      },
-      {
-        "id": "TeIqSgO9hcz5KO15",
-        "testName": "Dashboard18-Verify upgrading sso user",
-        "resultId": "VZoWz7r1APoQ9MlK",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/TeIqSgO9hcz5KO15?result-id=VZoWz7r1APoQ9MlK",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:20:15.185Z",
-        "duration": 44417,
-        "additionalAttempts": []
-      },
-      {
-        "id": "CYZi7BzKi48KeCaH",
-        "testName": "Dashboard15-Verify reader functionality in Dashboard",
-        "resultId": "Z22Mt9amYWdo4SWt",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/CYZi7BzKi48KeCaH?result-id=Z22Mt9amYWdo4SWt",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:14:42.567Z",
-        "duration": 163040,
-        "additionalAttempts": []
-      },
-      {
-        "id": "Rk05shmjYADlF4Rk",
-        "testName": "8879 Entities7-Verify cancelling 1041 envelope",
-        "resultId": "bsvUmOkmpHp13dBo",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/Rk05shmjYADlF4Rk?result-id=bsvUmOkmpHp13dBo",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:51:44.072Z",
-        "duration": 155308,
-        "additionalAttempts": []
-      },
-      {
-        "id": "fCIlAa8XiCkZZ3wF",
-        "testName": "8879 Entities4-Verify Declining 1120(s) envelope",
-        "resultId": "cF4wVN8apBpCfWtN",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/fCIlAa8XiCkZZ3wF?result-id=cF4wVN8apBpCfWtN",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:36:39.562Z",
-        "duration": 470690,
-        "additionalAttempts": []
-      },
-      {
         "id": "OIwiE4I5xMXzes7s",
         "testName": "8879 Entities26-Verify user permissions for editor user",
-        "resultId": "dR9ZyjykmfMmJtRW",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/OIwiE4I5xMXzes7s?result-id=dR9ZyjykmfMmJtRW",
+        "resultId": "2K9Xp3uHUr6DAaEn",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/OIwiE4I5xMXzes7s?result-id=2K9Xp3uHUr6DAaEn",
         "executionStatus": "Passed",
         "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T10:08:40.172Z",
-        "duration": 268468,
-        "additionalAttempts": []
-      },
-      {
-        "id": "aTg7y15SaLYW2Q8s",
-        "testName": "8879 Entities3 - Verify Cancelling  1120s Envelope",
-        "resultId": "eM1LPaaj8eo0SK35",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/aTg7y15SaLYW2Q8s?result-id=eM1LPaaj8eo0SK35",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:34:04.599Z",
-        "duration": 144937,
-        "additionalAttempts": []
-      },
-      {
-        "id": "qNDQAYybCyoxvOJ2",
-        "testName": "8879 Entities21-Verify Declining of 1040 envelope",
-        "resultId": "fJddnW6tSmRafRmp",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/qNDQAYybCyoxvOJ2?result-id=fJddnW6tSmRafRmp",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:47:28.160Z",
-        "duration": 170128,
-        "additionalAttempts": []
-      },
-      {
-        "id": "K1NiC3MvXlYrPwD0",
-        "testName": "Dashboard6-Verify My Favorites tile functionalities in dashboard",
-        "resultId": "fSvD4BvzVTxT159d",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/K1NiC3MvXlYrPwD0?result-id=fSvD4BvzVTxT159d",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:50:36.819Z",
-        "duration": 289877,
-        "additionalAttempts": []
-      },
-      {
-        "id": "ZV8lvn4mPXCdblLP",
-        "testName": "Dashboard10-Verify functionality of GoRS tile",
-        "resultId": "i7fiX4FDm93NuwgD",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/ZV8lvn4mPXCdblLP?result-id=i7fiX4FDm93NuwgD",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:59:09.611Z",
-        "duration": 80536,
-        "additionalAttempts": []
-      },
-      {
-        "id": "SkaVaAOJX43kweGS",
-        "testName": "Dashboard1-Verify add tile pop up and adding tiles",
-        "resultId": "jkOV8cTkURqmpYFF",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/SkaVaAOJX43kweGS?result-id=jkOV8cTkURqmpYFF",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:39:20.442Z",
-        "duration": 86261,
+        "startTime": "2023-12-18T07:20:19.251Z",
+        "duration": 243654,
         "additionalAttempts": []
       },
       {
         "id": "iK96q6nZ8AZyQvYq",
         "testName": "8879 Entities17-Verify declining 1120 envelope",
-        "resultId": "lSP33jugC4zYYScd",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/iK96q6nZ8AZyQvYq?result-id=lSP33jugC4zYYScd",
+        "resultId": "3GwZyoYsx6owLtEy",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/iK96q6nZ8AZyQvYq?result-id=3GwZyoYsx6owLtEy",
         "executionStatus": "Passed",
         "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:27:43.498Z",
-        "duration": 290944,
+        "startTime": "2023-12-18T06:39:45.229Z",
+        "duration": 323718,
         "additionalAttempts": []
       },
       {
-        "id": "K9PVNXSiT1JnP7aq",
-        "testName": "8879 Entities25-Verify user permissions for reader user",
-        "resultId": "meIHDZo7vtxXLK4j",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/K9PVNXSiT1JnP7aq?result-id=meIHDZo7vtxXLK4j",
+        "id": "xJk6wXg5SNd9LbHT",
+        "testName": "8879 Entities20-Verify cancelling 1040 return type",
+        "resultId": "4L97a5g8pWZo3FA4",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/xJk6wXg5SNd9LbHT?result-id=4L97a5g8pWZo3FA4",
         "executionStatus": "Passed",
         "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T10:03:56.365Z",
-        "duration": 266537,
-        "additionalAttempts": []
-      },
-      {
-        "id": "HW4z4rzB8cG4yBgW",
-        "testName": "8879 Entities18-Verify signing 1040 Envelope",
-        "resultId": "p5ejK8r7wbabQiK8",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/HW4z4rzB8cG4yBgW?result-id=p5ejK8r7wbabQiK8",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:32:45.108Z",
-        "duration": 328198,
-        "additionalAttempts": []
-      },
-      {
-        "id": "Gx00nVNwJWhzoPm8",
-        "testName": "Dashboard5-Verify Resetting dashboard tiles",
-        "resultId": "p8eOhyWelUpcUUiB",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/Gx00nVNwJWhzoPm8?result-id=p8eOhyWelUpcUUiB",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:49:53.541Z",
-        "duration": 32212,
-        "additionalAttempts": []
-      },
-      {
-        "id": "9E3UXIMZiMHI0h1I",
-        "testName": "8879 Entities9-Verify signing 1065 envelope",
-        "resultId": "pNHt9KpGbAREjYAI",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/9E3UXIMZiMHI0h1I?result-id=pNHt9KpGbAREjYAI",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:57:55.793Z",
-        "duration": 269061,
-        "additionalAttempts": []
-      },
-      {
-        "id": "sNGGYFDQ4XOpPOj4",
-        "testName": "8879 Entities22-Verify 8879 Entities columns",
-        "resultId": "rvED2HAirvsEE3L5",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/sNGGYFDQ4XOpPOj4?result-id=rvED2HAirvsEE3L5",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:50:28.475Z",
-        "duration": 271122,
-        "additionalAttempts": []
-      },
-      {
-        "id": "BqjoMMY1a1j0jMiJ",
-        "testName": "Dashboard7-Verify My Recent Files tile in Dashboard",
-        "resultId": "vN2RSKsMouVOcIY1",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/BqjoMMY1a1j0jMiJ?result-id=vN2RSKsMouVOcIY1",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:41:00.619Z",
-        "duration": 239978,
-        "additionalAttempts": []
-      },
-      {
-        "id": "n2tKuAnXKOX27THS",
-        "testName": "Dashboard19-Verify 8879 tile functionality in dashboard",
-        "resultId": "vVUt41saKvRimlB5",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/n2tKuAnXKOX27THS?result-id=vVUt41saKvRimlB5",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:21:10.396Z",
-        "duration": 76538,
-        "additionalAttempts": []
-      },
-      {
-        "id": "Qh38TQeA8WI00iXZ",
-        "testName": "Dashboard3-Verify Display of tool tips in dashboard",
-        "resultId": "yGwskMd2zu7o5ckw",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/Qh38TQeA8WI00iXZ?result-id=yGwskMd2zu7o5ckw",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:45:11.851Z",
-        "duration": 103875,
-        "additionalAttempts": []
-      },
-      {
-        "id": "64y6wR3bBw9qGqlL",
-        "testName": "8879 Entities14_Verify Resending envelope to taxpayer of 1120 return type",
-        "resultId": "yc3awxgl7RNAssuZ",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/64y6wR3bBw9qGqlL?result-id=yc3awxgl7RNAssuZ",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T09:23:25.355Z",
-        "duration": 247622,
-        "additionalAttempts": []
-      },
-      {
-        "id": "g5HB6DtffVUWErpN",
-        "testName": "Dashboard4-Verify deletion of tiles in dashboard",
-        "resultId": "ztpYfSJ9bq3UTQnQ",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/g5HB6DtffVUWErpN?result-id=ztpYfSJ9bq3UTQnQ",
-        "executionStatus": "Passed",
-        "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T07:47:06.658Z",
-        "duration": 85825,
+        "startTime": "2023-12-18T06:55:04.048Z",
+        "duration": 202110,
         "additionalAttempts": []
       },
       {
         "id": "3MSzaPHKFfUeIM6B",
         "testName": "Dashboard11-Verify  Tenant Admin should be able to add links in Quick Links tile",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/3MSzaPHKFfUeIM6B?result-id=4il9IxNzJzYXMrNX",
-        "resultId": "4il9IxNzJzYXMrNX",
-        "executionStatus": "Failed",
-        "errorMessage": "Element is visible",
-        "failedSteps": [
-          {
-            "reason": "Element not found",
-            "name": "Hover \"GoRS eFile 2022\""
-          },
-          {
-            "reason": "Element not found",
-            "name": "Hover \"GoRS eFile 2022\""
-          },
-          {
-            "reason": "Element is visible",
-            "name": "\"The link testing dashboard is added\" not visible"
-          },
-          {
-            "reason": "Element is visible",
-            "name": "\"The link testing dashboard is added\" not visible"
-          }
-        ],
-        "failureType": "N/A",
-        "failureDescription": "N/A",
-        "linkToFailureIssue": "https://api.testim.io/images/screenshots/GUZ9xo1wN0RUPUbryvVA/3MSzaPHKFfUeIM6B/kwpclkQU9I4sT53L/result?token=0cdc6074680d528cd9c4d37b392567cb",
+        "resultId": "67wQDI2OE9UQ8Ul0",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/3MSzaPHKFfUeIM6B?result-id=67wQDI2OE9UQ8Ul0",
+        "executionStatus": "Passed",
         "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T08:00:47.742Z",
-        "duration": 136202
+        "startTime": "2023-12-18T05:21:34.613Z",
+        "duration": 92300,
+        "additionalAttempts": []
+      },
+      {
+        "id": "YemHjLSHf2Io1HnJ",
+        "testName": "8879 Entities2_Verify resending envelope for 1120(s)",
+        "resultId": "7O2OT8FQYtzyuUxm",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/YemHjLSHf2Io1HnJ?result-id=7O2OT8FQYtzyuUxm",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:45:57.106Z",
+        "duration": 162186,
+        "additionalAttempts": []
+      },
+      {
+        "id": "9E3UXIMZiMHI0h1I",
+        "testName": "8879 Entities9-Verify signing 1065 envelope",
+        "resultId": "8fTtqvuf3R5asjS7",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/9E3UXIMZiMHI0h1I?result-id=8fTtqvuf3R5asjS7",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:09:06.140Z",
+        "duration": 259782,
+        "additionalAttempts": []
+      },
+      {
+        "id": "fCIlAa8XiCkZZ3wF",
+        "testName": "8879 Entities4-Verify Declining 1120(s) envelope",
+        "resultId": "8ordT4eYd2CHPSvm",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/fCIlAa8XiCkZZ3wF?result-id=8ordT4eYd2CHPSvm",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:51:27.326Z",
+        "duration": 174499,
+        "additionalAttempts": []
+      },
+      {
+        "id": "Gx00nVNwJWhzoPm8",
+        "testName": "Dashboard5-Verify Resetting dashboard tiles",
+        "resultId": "B4nKPcGnUuo5MaxC",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/Gx00nVNwJWhzoPm8?result-id=B4nKPcGnUuo5MaxC",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:10:47.234Z",
+        "duration": 34929,
+        "additionalAttempts": []
+      },
+      {
+        "id": "LfvlmCVodvOXsn5W",
+        "testName": "Dashboard2-Verify resize of the tiles",
+        "resultId": "C4KYmpaWJmgGsOMX",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/LfvlmCVodvOXsn5W?result-id=C4KYmpaWJmgGsOMX",
+        "executionStatus": "Skipped",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "N/A",
+        "duration": "N/A",
+        "additionalAttempts": []
+      },
+      {
+        "id": "QFNKT1GXs86tpmGb",
+        "testName": "8879 Entities24-Verify user permissions for organizer reader user",
+        "resultId": "DIl6zLtqo216sBe6",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/QFNKT1GXs86tpmGb?result-id=DIl6zLtqo216sBe6",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T07:11:14.679Z",
+        "duration": 211637,
+        "additionalAttempts": []
+      },
+      {
+        "id": "g5HB6DtffVUWErpN",
+        "testName": "Dashboard4-Verify deletion of tiles in dashboard",
+        "resultId": "EMwzgZiJZUSQKWPy",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/g5HB6DtffVUWErpN?result-id=EMwzgZiJZUSQKWPy",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:07:39.129Z",
+        "duration": 94442,
+        "additionalAttempts": []
+      },
+      {
+        "id": "eTVGptYkBnbjWl3s",
+        "testName": "8879 Entities13-signing 1120 envelope",
+        "resultId": "GimBIW9aEc6cW1Uz",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/eTVGptYkBnbjWl3s?result-id=GimBIW9aEc6cW1Uz",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:23:33.462Z",
+        "duration": 435019,
+        "additionalAttempts": []
+      },
+      {
+        "id": "z4Je7OVxphtszb3G",
+        "testName": "8879 Entities5-Verify signing 1041 envelope",
+        "resultId": "HuZOSt85AlisvT0a",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/z4Je7OVxphtszb3G?result-id=HuZOSt85AlisvT0a",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:54:32.081Z",
+        "duration": 225029,
+        "additionalAttempts": []
+      },
+      {
+        "id": "NEZeN68hpGISoSys",
+        "testName": "Dashboard13-Verify dashboard functionality for organizer editor role",
+        "resultId": "L7TSJFctSnWJTYsJ",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/NEZeN68hpGISoSys?result-id=L7TSJFctSnWJTYsJ",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:26:16.623Z",
+        "duration": 156445,
+        "additionalAttempts": []
+      },
+      {
+        "id": "5wI9wssEDyEAww6H",
+        "testName": "Dashboard9-Verify functionality of return progress tile",
+        "resultId": "Mq7cl356PamQTyAR",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/5wI9wssEDyEAww6H?result-id=Mq7cl356PamQTyAR",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:18:38.747Z",
+        "duration": 78444,
+        "additionalAttempts": []
+      },
+      {
+        "id": "ZpaLyhEdEKAFsMN0",
+        "testName": "8879 Entities16-Verify cancelling 1120 envelope",
+        "resultId": "PdsmFl2TZgzkQfDV",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/ZpaLyhEdEKAFsMN0?result-id=PdsmFl2TZgzkQfDV",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:35:08.721Z",
+        "duration": 265746,
+        "additionalAttempts": []
+      },
+      {
+        "id": "xUTwBkRRbSwo3CLU",
+        "testName": "Dashboard20-Verify 1040 Hub functionality in Dashboard",
+        "resultId": "QrgBniYoHYqd2NCt",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/xUTwBkRRbSwo3CLU?result-id=QrgBniYoHYqd2NCt",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:39:20.116Z",
+        "duration": 59315,
+        "additionalAttempts": []
+      },
+      {
+        "id": "vCHSQ7lywHLJXfWS",
+        "testName": "8879 Entities27-Verify uploading files",
+        "resultId": "RpOvXsftWhTAprhQ",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/vCHSQ7lywHLJXfWS?result-id=RpOvXsftWhTAprhQ",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T07:24:32.761Z",
+        "duration": 209942,
+        "additionalAttempts": []
+      },
+      {
+        "id": "aTg7y15SaLYW2Q8s",
+        "testName": "8879 Entities3 - Verify Cancelling  1120s Envelope",
+        "resultId": "SpGhqdo9m5B6svLu",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/aTg7y15SaLYW2Q8s?result-id=SpGhqdo9m5B6svLu",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:48:50.412Z",
+        "duration": 146381,
+        "additionalAttempts": []
+      },
+      {
+        "id": "WHniwANqemYnjGmq",
+        "testName": "8879 Entities - Column , signing 1040 file",
+        "resultId": "TwnL8PK1xTCaxDbI",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/WHniwANqemYnjGmq?result-id=TwnL8PK1xTCaxDbI",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T07:28:12.298Z",
+        "duration": 302298,
+        "additionalAttempts": []
+      },
+      {
+        "id": "64y6wR3bBw9qGqlL",
+        "testName": "8879 Entities14_Verify Resending envelope to taxpayer of 1120 return type",
+        "resultId": "UrhOQihdbAFJGypN",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/64y6wR3bBw9qGqlL?result-id=UrhOQihdbAFJGypN",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:31:01.462Z",
+        "duration": 237431,
+        "additionalAttempts": []
+      },
+      {
+        "id": "K1NiC3MvXlYrPwD0",
+        "testName": "Dashboard6-Verify My Favorites tile functionalities in dashboard",
+        "resultId": "VBwdE42ToAL9x9Vq",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/K1NiC3MvXlYrPwD0?result-id=VBwdE42ToAL9x9Vq",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:11:33.599Z",
+        "duration": 283881,
+        "additionalAttempts": []
+      },
+      {
+        "id": "rNWWmwknq1BReKml",
+        "testName": "8879 Entities23-Verify user permissions for organizer editor",
+        "resultId": "Vc2TEC3GJfqbpbZ5",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/rNWWmwknq1BReKml?result-id=Vc2TEC3GJfqbpbZ5",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T07:07:28.523Z",
+        "duration": 216175,
+        "additionalAttempts": []
+      },
+      {
+        "id": "t3cgU48KBaFXfetB",
+        "testName": "8879 Entities15-Verify changing email address of spouse and resend envelope",
+        "resultId": "VwfLxnjXcJ9zZiVK",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/t3cgU48KBaFXfetB?result-id=VwfLxnjXcJ9zZiVK",
+        "executionStatus": "Skipped",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "N/A",
+        "duration": "N/A",
+        "additionalAttempts": []
+      },
+      {
+        "id": "pu68LcSyI8OCz3wu",
+        "testName": "Dashboard17-Verify functionality of Recent Workspaces",
+        "resultId": "WktovglYlcrpBgO4",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/pu68LcSyI8OCz3wu?result-id=WktovglYlcrpBgO4",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:09:22.952Z",
+        "duration": 72499,
+        "additionalAttempts": []
+      },
+      {
+        "id": "pAIYOGoSXPNEkVM4",
+        "testName": "8879 Entities6-Verify Resending 1041 envelope",
+        "resultId": "Ww7Zn8FbLBBsmodP",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/pAIYOGoSXPNEkVM4?result-id=Ww7Zn8FbLBBsmodP",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:58:26.843Z",
+        "duration": 166558,
+        "additionalAttempts": []
+      },
+      {
+        "id": "SkaVaAOJX43kweGS",
+        "testName": "Dashboard1-Verify add tile pop up and adding tiles",
+        "resultId": "Yqr7Vuu8pDlJsXjt",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/SkaVaAOJX43kweGS?result-id=Yqr7Vuu8pDlJsXjt",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:00:27.558Z",
+        "duration": 82527,
+        "additionalAttempts": []
+      },
+      {
+        "id": "BqjoMMY1a1j0jMiJ",
+        "testName": "Dashboard7-Verify My Recent Files tile in Dashboard",
+        "resultId": "Z4nN1tjawl5XTUCR",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/BqjoMMY1a1j0jMiJ?result-id=Z4nN1tjawl5XTUCR",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:02:00.176Z",
+        "duration": 232010,
+        "additionalAttempts": []
+      },
+      {
+        "id": "k3ObHloh1aDVcIFd",
+        "testName": "Dashboard14-Verify the functionalities of organizer reader user in dashboard",
+        "resultId": "ZJS4uxZvia048NsS",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/k3ObHloh1aDVcIFd?result-id=ZJS4uxZvia048NsS",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:29:03.534Z",
+        "duration": 142715,
+        "additionalAttempts": []
+      },
+      {
+        "id": "Rk05shmjYADlF4Rk",
+        "testName": "8879 Entities7-Verify cancelling 1041 envelope",
+        "resultId": "aFdi6VRept3otDEM",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/Rk05shmjYADlF4Rk?result-id=aFdi6VRept3otDEM",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:01:47.378Z",
+        "duration": 196828,
+        "additionalAttempts": []
+      },
+      {
+        "id": "7hzM2vCkLtysvqKX",
+        "testName": "Dashboard8-Verify quick link functionalities tile",
+        "resultId": "aKLa4FYksy4Ii3MM",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/7hzM2vCkLtysvqKX?result-id=aKLa4FYksy4Ii3MM",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:16:26.914Z",
+        "duration": 122297,
+        "additionalAttempts": []
+      },
+      {
+        "id": "bU3SpOla16BUhlMO",
+        "testName": "Dashboard16-Verify administrator functionality in dashboard                                                                  ",
+        "resultId": "aaIcI2JYo22unTqe",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/bU3SpOla16BUhlMO?result-id=aaIcI2JYo22unTqe",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:34:35.106Z",
+        "duration": 147161,
+        "additionalAttempts": []
+      },
+      {
+        "id": "3fXSVAsDo75QsHOZ",
+        "testName": "8879 Entities11-Verify cancelling 1065 envelope",
+        "resultId": "bFXBO1AXa2YQYswd",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/3fXSVAsDo75QsHOZ?result-id=bFXBO1AXa2YQYswd",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:17:30.587Z",
+        "duration": 154468,
+        "additionalAttempts": []
+      },
+      {
+        "id": "qNDQAYybCyoxvOJ2",
+        "testName": "8879 Entities21-Verify Declining of 1040 envelope",
+        "resultId": "botvEP4pDbnmO8GJ",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/qNDQAYybCyoxvOJ2?result-id=botvEP4pDbnmO8GJ",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:58:35.192Z",
+        "duration": 185324,
+        "additionalAttempts": []
+      },
+      {
+        "id": "A7C7zN83xDJbwiRL",
+        "testName": "8879 Entities19-Verify changing the email address of taxpayer , spouse and resending envelope of 1040",
+        "resultId": "cYlfpCi5HKggehgE",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/A7C7zN83xDJbwiRL?result-id=cYlfpCi5HKggehgE",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:50:11.532Z",
+        "duration": 282203,
+        "additionalAttempts": []
+      },
+      {
+        "id": "Qh38TQeA8WI00iXZ",
+        "testName": "Dashboard3-Verify Display of tool tips in dashboard",
+        "resultId": "ciLFS7mOC8Tp6Xfj",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/Qh38TQeA8WI00iXZ?result-id=ciLFS7mOC8Tp6Xfj",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:06:02.484Z",
+        "duration": 86624,
+        "additionalAttempts": []
+      },
+      {
+        "id": "IMgHpRCsRqHOW0e2",
+        "testName": "8879 Entities8-Verify Declining 1041 envelope",
+        "resultId": "dLixtHk3ujnL1tyF",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/IMgHpRCsRqHOW0e2?result-id=dLixtHk3ujnL1tyF",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:05:16.951Z",
+        "duration": 218870,
+        "additionalAttempts": []
+      },
+      {
+        "id": "ZV8lvn4mPXCdblLP",
+        "testName": "Dashboard10-Verify functionality of GoRS tile",
+        "resultId": "e2cCdeXM7BgVvk1D",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/ZV8lvn4mPXCdblLP?result-id=e2cCdeXM7BgVvk1D",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:20:06.537Z",
+        "duration": 78968,
+        "additionalAttempts": []
+      },
+      {
+        "id": "nYiaumVjGP4x6AtO",
+        "testName": "8879 Entities1-Verify signing 1120s envelope",
+        "resultId": "gW9iPzIUlIG4i3Fd",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/nYiaumVjGP4x6AtO?result-id=gW9iPzIUlIG4i3Fd",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:41:50.086Z",
+        "duration": 236411,
+        "additionalAttempts": []
+      },
+      {
+        "id": "oBIcN9xkWtlUKDUX",
+        "testName": "8879 Entities12-Verify Declining 1065 envelope",
+        "resultId": "jCAjyFW3zle1fz51",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/oBIcN9xkWtlUKDUX?result-id=jCAjyFW3zle1fz51",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:20:17.198Z",
+        "duration": 186608,
+        "additionalAttempts": []
+      },
+      {
+        "id": "n2tKuAnXKOX27THS",
+        "testName": "Dashboard19-Verify 8879 tile functionality in dashboard",
+        "resultId": "ltSrvlBt1KlwKepU",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/n2tKuAnXKOX27THS?result-id=ltSrvlBt1KlwKepU",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:37:59.398Z",
+        "duration": 71010,
+        "additionalAttempts": []
+      },
+      {
+        "id": "CYZi7BzKi48KeCaH",
+        "testName": "Dashboard15-Verify reader functionality in Dashboard",
+        "resultId": "q6CBgpzOMSavN6Zr",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/CYZi7BzKi48KeCaH?result-id=q6CBgpzOMSavN6Zr",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:31:36.993Z",
+        "duration": 167521,
+        "additionalAttempts": []
+      },
+      {
+        "id": "InVKoUcvLnWmXtcd",
+        "testName": "8879 Entities10-Verify resending 1065 envelope",
+        "resultId": "rAxEzl4Rx4bhkpvY",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/InVKoUcvLnWmXtcd?result-id=rAxEzl4Rx4bhkpvY",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:13:35.691Z",
+        "duration": 225366,
+        "additionalAttempts": []
+      },
+      {
+        "id": "sNGGYFDQ4XOpPOj4",
+        "testName": "8879 Entities22-Verify 8879 Entities columns",
+        "resultId": "teZ4bC3NtErjo4dI",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/sNGGYFDQ4XOpPOj4?result-id=teZ4bC3NtErjo4dI",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T07:01:53.016Z",
+        "duration": 318197,
+        "additionalAttempts": []
+      },
+      {
+        "id": "ctO5NpaymnuqxkLC",
+        "testName": "Dashboard21-Verify Engagement letter status tile functionality in Dashboard",
+        "resultId": "wDVvvByoXmOpAKV6",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/ctO5NpaymnuqxkLC?result-id=wDVvvByoXmOpAKV6",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:40:29.189Z",
+        "duration": 71809,
+        "additionalAttempts": []
+      },
+      {
+        "id": "dNxLHoIIIkerwT8r",
+        "testName": "Dashboard12-Verify editor user is able to access the dashboard",
+        "resultId": "y3rUuJ93wbO4pLSK",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/dNxLHoIIIkerwT8r?result-id=y3rUuJ93wbO4pLSK",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:23:16.875Z",
+        "duration": 165458,
+        "additionalAttempts": []
+      },
+      {
+        "id": "TeIqSgO9hcz5KO15",
+        "testName": "Dashboard18-Verify upgrading sso user",
+        "resultId": "y9xObAth1iWR3q7c",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/TeIqSgO9hcz5KO15?result-id=y9xObAth1iWR3q7c",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T05:37:13.518Z",
+        "duration": 35229,
+        "additionalAttempts": []
+      },
+      {
+        "id": "HW4z4rzB8cG4yBgW",
+        "testName": "8879 Entities18-Verify signing 1040 Envelope",
+        "resultId": "zY5EKifM38TvMYa3",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/HW4z4rzB8cG4yBgW?result-id=zY5EKifM38TvMYa3",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T06:45:18.426Z",
+        "duration": 283280,
+        "additionalAttempts": []
+      },
+      {
+        "id": "K9PVNXSiT1JnP7aq",
+        "testName": "8879 Entities25-Verify user permissions for reader user",
+        "resultId": "zqASsUHrADJueucZ",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/K9PVNXSiT1JnP7aq?result-id=zqASsUHrADJueucZ",
+        "executionStatus": "Passed",
+        "baseUrl": "https://qa.hubsyncdev-v2.com",
+        "startTime": "2023-12-18T07:14:59.297Z",
+        "duration": 309962,
+        "additionalAttempts": []
       },
       {
         "id": "2KA97KLxzFPEGL13",
         "testName": "8879 Entities29-Verify KBA process",
-        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/2KA97KLxzFPEGL13?result-id=3vXXjVk6pNeByBLU",
-        "resultId": "3vXXjVk6pNeByBLU",
+        "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/branch/master/test/2KA97KLxzFPEGL13?result-id=0buVc9pxs0mTRjcP",
+        "resultId": "0buVc9pxs0mTRjcP",
         "executionStatus": "Failed",
-        "errorMessage": "Expected: 'Signer Authentication Failed'. Actual: 'Started'",
+        "errorMessage": "Element not found",
         "failedSteps": [
           {
             "reason": "Expected: 'Workspaces'. Actual: '8879 entities'",
             "name": "Wait For Text"
           },
           {
-            "reason": "Expected: 'Signer Authentication Failed'. Actual: 'Started'",
+            "reason": "Expected: 'Failed - TP (1), SP (0)'. Actual: 'eSign attempts exhausted - TP (3), SP (0)'",
             "name": "Text Validation"
           },
           {
-            "reason": "Expected: 'Signer Authentication Failed'. Actual: 'Started'",
-            "name": "Text Validation"
+            "reason": "Expected: 'Workspaces'. Actual: '8879 entities'",
+            "name": "Wait For Text"
           },
           {
-            "reason": "Expected: 'Signer Authentication Failed'. Actual: 'Started'",
-            "name": "Text Validation"
+            "reason": "Error while running step: Error: error",
+            "name": "Validate KBA"
+          },
+          {
+            "reason": "Error while running step: Error: error",
+            "name": "Validate KBA"
+          },
+          {
+            "reason": "Error while running step: Error: error",
+            "name": "Validate KBA"
+          },
+          {
+            "reason": "Error while running step: Error: error",
+            "name": "Validate KBA"
+          },
+          {
+            "reason": "Element not found",
+            "name": "Click \"Typed with a keyboard\""
+          },
+          {
+            "reason": "Element not found",
+            "name": "Click \"Typed with a keyboard\""
+          },
+          {
+            "reason": "Element not found",
+            "name": "Click \"Typed with a keyboard\""
           }
         ],
         "failureType": "N/A",
         "failureDescription": "N/A",
-        "linkToFailureIssue": "https://api.testim.io/images/screenshots/GUZ9xo1wN0RUPUbryvVA/2KA97KLxzFPEGL13/HnTzilT9mirJzLwD/result?token=c56413b3b9508f9cd98baeefedacbe3b",
+        "linkToFailureIssue": "https://api.testim.io/images/screenshots/GUZ9xo1wN0RUPUbryvVA/2KA97KLxzFPEGL13/Hf7FsyQnQFXIqlCB/result?token=52e404e82f022eaab9c01a190ef7ae51",
         "baseUrl": "https://qa.hubsyncdev-v2.com",
-        "startTime": "2023-12-14T10:25:07.600Z",
-        "duration": 279712
+        "startTime": "2023-12-18T07:33:24.818Z",
+        "duration": 477953
       }
     ],
     "execution": "End to End-All-Sequential / Regression2-Sequential",
@@ -603,15 +606,15 @@
     "turboMode": false,
     "executionResult": "Failed",
     "browser": "chrome",
-    "failedCount": 2,
+    "failedCount": 1,
     "totalTests": 50,
-    "failedTestRunCount": 2,
+    "failedTestRunCount": 1,
     "totalTestRuns": 50,
-    "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/gUbTGgfVxZpXcEtF",
-    "duration": 10237711,
+    "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/CckXpFvpY68WL8AS",
+    "duration": 9666628,
     "numberOfTestsWithRetries": 0
   },
   "metaData": {
-    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-0971a95e-14f7-4947-a6d4-050a002691ad"
+    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-2b279132-2223-4407-8dcd-1d82ba88cf47"
   }
 }
