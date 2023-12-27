@@ -74,9 +74,9 @@ args.forEach(arg => {
     }
   }
 });
-branch="master"
-execution="End to End-All-Sequential / Regression2-Sequential"
+// branch="master"
+// execution="End to End-All-Sequential / Regression2-Sequential"
 
-apiUrl = `https://api.testim.io/runs/executions?fromDate=${formattedLastWeekDate}&branch=${branch}&name=${execution}&page=0&pageSize=500`;
+apiUrl = `https://api.testim.io/runs/executions?fromDate=${formattedLastWeekDate}&branch=${branch}&page=0&pageSize=500`;
 console.log(apiUrl);
 getAllTestResponses(apiUrl, token);

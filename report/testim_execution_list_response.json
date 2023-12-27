@@ -1,135 +1,3252 @@
 {
-  "totalRecords": 14,
+  "totalRecords": 314,
   "page": 0,
   "pageSize": 500,
   "executions": [
     {
-      "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "CckXpFvpY68WL8AS",
+      "execution": "remote-run",
+      "executionId": "nmtryfphjLBzSr5h",
       "executionResult": "FAILED",
-      "duration": 9666.628,
-      "totalTests": 50,
+      "duration": 416.893,
+      "totalTests": 1,
       "failedCount": 1,
       "concurrency": 1,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-18T05:00:18.939Z",
+      "startTime": "2023-12-27T08:17:33.457Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/CckXpFvpY68WL8AS"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/nmtryfphjLBzSr5h"
     },
     {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "dW35Zf9v7vjPkVXB",
+      "execution": "remote-run",
+      "executionId": "4gOBj2sKgVHgXNqx",
+      "executionResult": "PASSED",
+      "duration": 1052.293,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T08:14:29.890Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/4gOBj2sKgVHgXNqx"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "EHtcv7v91ef4sPZh",
       "executionResult": "FAILED",
-      "duration": 15234.091,
-      "totalTests": 532,
-      "failedCount": 53,
+      "duration": 71.667,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T08:13:23.226Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EHtcv7v91ef4sPZh"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "sE6xf9qCHBry9I8r",
+      "executionResult": "RUNNING",
+      "duration": null,
+      "totalTests": 1,
+      "failedCount": 2,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T08:03:26.842Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/sE6xf9qCHBry9I8r"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Qr8OLM7ywOcR65QS",
+      "executionResult": "PASSED",
+      "duration": 304.574,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:47:22.752Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Qr8OLM7ywOcR65QS"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "WeKN2DIzkicNqJds",
+      "executionResult": "PASSED",
+      "duration": 221.284,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:41:31.971Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/WeKN2DIzkicNqJds"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "rqCG3Ypp3IGxiV8N",
+      "executionResult": "PASSED",
+      "duration": 970.673,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:41:14.874Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rqCG3Ypp3IGxiV8N"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "OSsZ97OKsfdRxqEp",
+      "executionResult": "FAILED",
+      "duration": 537.372,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:40:51.428Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/OSsZ97OKsfdRxqEp"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "4BaaiEcDFifLQ0vm",
+      "executionResult": "PASSED",
+      "duration": 269.255,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:38:55.695Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/4BaaiEcDFifLQ0vm"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "XekoJme7vxkvjBab",
+      "executionResult": "FAILED",
+      "duration": 437.53,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:38:31.108Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XekoJme7vxkvjBab"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "bAuCEr3jzXPwlOdc",
+      "executionResult": "PASSED",
+      "duration": 129.184,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:38:17.776Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/bAuCEr3jzXPwlOdc"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "dDhpHuZzptz2ocb9",
+      "executionResult": "PASSED",
+      "duration": 201.354,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:34:15.505Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/dDhpHuZzptz2ocb9"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "nNegroPpVXnRUBl7",
+      "executionResult": "FAILED",
+      "duration": 487.158,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:25:38.094Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/nNegroPpVXnRUBl7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "oFg6aiYsnL8JcY4X",
+      "executionResult": "ABORTED",
+      "duration": 376.944,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:24:42.898Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/oFg6aiYsnL8JcY4X"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "mxLIyZIlezfinQyY",
+      "executionResult": "FAILED",
+      "duration": 665.441,
+      "totalTests": 1,
+      "failedCount": 2,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:22:39.677Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/mxLIyZIlezfinQyY"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "pCxooJrqEycGv2Hv",
+      "executionResult": "FAILED",
+      "duration": 481.03,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:13:49.434Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/pCxooJrqEycGv2Hv"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "a1VZbXXPmi0WUuNV",
+      "executionResult": "PASSED",
+      "duration": 95.959,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:13:30.105Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/a1VZbXXPmi0WUuNV"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "YRa0GtdHZRyFeLSJ",
+      "executionResult": "PASSED",
+      "duration": 78.322,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:10:28.431Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/YRa0GtdHZRyFeLSJ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "9u5X71SOmcgCgBWO",
+      "executionResult": "FAILED",
+      "duration": 127.157,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:10:15.738Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/9u5X71SOmcgCgBWO"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "BPmgpJUC4mrD1irb",
+      "executionResult": "PASSED",
+      "duration": 100.135,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:08:21.725Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/BPmgpJUC4mrD1irb"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "0Xbmx1PQeCojCkAZ",
+      "executionResult": "FAILED",
+      "duration": 1899.413,
+      "totalTests": 1,
+      "failedCount": 2,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T07:08:16.784Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/0Xbmx1PQeCojCkAZ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "m1xRxERMjDmjgbJm",
+      "executionResult": "PASSED",
+      "duration": 73.78,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:50:03.143Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/m1xRxERMjDmjgbJm"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "g5HY7FGltEyJGllg",
+      "executionResult": "PASSED",
+      "duration": 62.668,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:46:56.466Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/g5HY7FGltEyJGllg"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "NdcQcnDUnqssmhEZ",
+      "executionResult": "FAILED",
+      "duration": 590.718,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:46:20.194Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/NdcQcnDUnqssmhEZ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "LdViHuViYRTo4sor",
+      "executionResult": "FAILED",
+      "duration": 85.889,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:45:15.300Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/LdViHuViYRTo4sor"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "LKEzs5DbTLvZbvHi",
+      "executionResult": "PASSED",
+      "duration": 79.542,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:42:26.409Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/LKEzs5DbTLvZbvHi"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "PA66rsdJjkzEi4DA",
+      "executionResult": "ABORTED",
+      "duration": 79.893,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:39:29.917Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/PA66rsdJjkzEi4DA"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "pRnIl31ZAA31qHF6",
+      "executionResult": "PASSED",
+      "duration": 310.405,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:36:11.849Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/pRnIl31ZAA31qHF6"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "SicR8iKfBtGj3ShL",
+      "executionResult": "FAILED",
+      "duration": 82.578,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:35:53.398Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/SicR8iKfBtGj3ShL"
+    },
+    {
+      "execution": "Quarantine_ReTest_Dec18",
+      "executionId": "AFFwm56akajR6qkb",
+      "executionResult": "FAILED",
+      "duration": 3920.175,
+      "totalTests": 69,
+      "failedCount": 70,
       "concurrency": 6,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-17T22:00:22.284Z",
+      "startTime": "2023-12-27T06:27:56.276Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/dW35Zf9v7vjPkVXB"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/AFFwm56akajR6qkb"
     },
     {
-      "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "2by0w3QdDqyh3hI6",
+      "execution": "remote-run",
+      "executionId": "sfTloPbEHfubzyDl",
       "executionResult": "FAILED",
-      "duration": 9774.074,
-      "totalTests": 50,
-      "failedCount": 4,
+      "duration": 99.292,
+      "totalTests": 1,
+      "failedCount": 1,
       "concurrency": 1,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-15T10:00:14.176Z",
+      "startTime": "2023-12-27T06:05:42.047Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2by0w3QdDqyh3hI6"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/sfTloPbEHfubzyDl"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "MrGReLibGiYD3atn",
+      "executionResult": "FAILED",
+      "duration": 66.584,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:04:22.960Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/MrGReLibGiYD3atn"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "2EIx9eFLBHMzFnmy",
+      "executionResult": "FAILED",
+      "duration": 574.811,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:03:26.465Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2EIx9eFLBHMzFnmy"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "hPTrrY6HZqZs9p10",
+      "executionResult": "ABORTED",
+      "duration": 80.688,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:02:27.412Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/hPTrrY6HZqZs9p10"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "6A5zeDpp9k6uvwCW",
+      "executionResult": "PASSED",
+      "duration": 61.19,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T06:00:38.882Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/6A5zeDpp9k6uvwCW"
+    },
+    {
+      "execution": "Re-test-27th-Dec",
+      "executionId": "O5yFoDN019Q55A1r",
+      "executionResult": "FAILED",
+      "duration": 2586.558,
+      "totalTests": 36,
+      "failedCount": 11,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:41:30.101Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/O5yFoDN019Q55A1r"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "UjiQ9hBcwJJR0OL5",
+      "executionResult": "PASSED",
+      "duration": 152.933,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:13:49.987Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/UjiQ9hBcwJJR0OL5"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "4yCRLEPyUmi1GJUD",
+      "executionResult": "PASSED",
+      "duration": 474.09,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:13:32.424Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/4yCRLEPyUmi1GJUD"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "EHggNWp7NeeczgDG",
+      "executionResult": "PASSED",
+      "duration": 105.49,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:12:25.470Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EHggNWp7NeeczgDG"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "EujJzdMfSMxT5boF",
+      "executionResult": "PASSED",
+      "duration": 90.941,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:08:12.806Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EujJzdMfSMxT5boF"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "yvUqr4r3k8wndE7u",
+      "executionResult": "PASSED",
+      "duration": 225.557,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:07:12.156Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/yvUqr4r3k8wndE7u"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Ykjn5OaTZPiDjx65",
+      "executionResult": "PASSED",
+      "duration": 543.853,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:06:48.277Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Ykjn5OaTZPiDjx65"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ggpHLzp6qoMgNw04",
+      "executionResult": "FAILED",
+      "duration": 1640.071,
+      "totalTests": 1,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:06:46.480Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ggpHLzp6qoMgNw04"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Nw6iaWT1VxofQpWp",
+      "executionResult": "PASSED",
+      "duration": 73.204,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-27T05:05:16.756Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Nw6iaWT1VxofQpWp"
     },
     {
       "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "CTx06s3zCmscajT8",
+      "executionId": "HfftG4ZJxPWJMzQB",
       "executionResult": "ABORTED",
-      "duration": 10383.409,
+      "duration": 9149.457,
       "totalTests": 50,
-      "failedCount": 7,
+      "failedCount": 20,
       "concurrency": 1,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-15T03:45:54.596Z",
+      "startTime": "2023-12-27T05:00:29.619Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/CTx06s3zCmscajT8"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/HfftG4ZJxPWJMzQB"
     },
     {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "5dtmnL5Khta1xqv1",
-      "executionResult": "ABORTED",
-      "duration": 9663.019,
+      "execution": "End to End-All-Parallel / e2e-all",
+      "executionId": "l1eQgkAO8mOtRpNi",
+      "executionResult": "FAILED",
+      "duration": 10150.731,
       "totalTests": 532,
-      "failedCount": 30,
+      "failedCount": 37,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T22:00:45.074Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/l1eQgkAO8mOtRpNi"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "RmFU0wHb5a38zlg0",
+      "executionResult": "FAILED",
+      "duration": 585.757,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T13:31:23.590Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/RmFU0wHb5a38zlg0"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "wOz8WY6saCQquwDZ",
+      "executionResult": "FAILED",
+      "duration": 779.484,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T13:30:51.870Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/wOz8WY6saCQquwDZ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "0HHWOb95B62cphP5",
+      "executionResult": "PASSED",
+      "duration": 289.362,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:57:08.290Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/0HHWOb95B62cphP5"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "8li9KAqI2U9GLOew",
+      "executionResult": "FAILED",
+      "duration": 1848.573,
+      "totalTests": 1,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:56:27.972Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/8li9KAqI2U9GLOew"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "08w2nwBUtGYauT8a",
+      "executionResult": "FAILED",
+      "duration": 552.126,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:48:01.328Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/08w2nwBUtGYauT8a"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ld0sPeqdRikRUpg2",
+      "executionResult": "PASSED",
+      "duration": 579.299,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:47:48.208Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ld0sPeqdRikRUpg2"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "MAf7ezv0VhUopaKw",
+      "executionResult": "FAILED",
+      "duration": 519.682,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:46:25.563Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/MAf7ezv0VhUopaKw"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "QGMRYXReS4XHgWJI",
+      "executionResult": "PASSED",
+      "duration": 373.087,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:39:42.825Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/QGMRYXReS4XHgWJI"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Jx7bSpIfWPoPW40d",
+      "executionResult": "FAILED",
+      "duration": 378.437,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:39:37.900Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Jx7bSpIfWPoPW40d"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "B91H6Negc2Yr16X9",
+      "executionResult": "FAILED",
+      "duration": 227.803,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:34:47.801Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/B91H6Negc2Yr16X9"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "JbVAg2tV9V8OU7PL",
+      "executionResult": "FAILED",
+      "duration": 418.321,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:31:18.299Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/JbVAg2tV9V8OU7PL"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "lYMqzEZqkldjVelB",
+      "executionResult": "FAILED",
+      "duration": 283.659,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:29:48.835Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/lYMqzEZqkldjVelB"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "UEVdJssHBOdRsObb",
+      "executionResult": "PASSED",
+      "duration": 986.556,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:27:36.495Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/UEVdJssHBOdRsObb"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "QiNwjq4YCLB3BtB6",
+      "executionResult": "FAILED",
+      "duration": 241.318,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:20:48.806Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/QiNwjq4YCLB3BtB6"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "GIiAX7kSQCuvSnC1",
+      "executionResult": "FAILED",
+      "duration": 333.891,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:17:31.337Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/GIiAX7kSQCuvSnC1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "gyXc9Fr1GpDNUPxD",
+      "executionResult": "FAILED",
+      "duration": 305.577,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:16:08.298Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/gyXc9Fr1GpDNUPxD"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "55qh0lJOiiRpm4mp",
+      "executionResult": "FAILED",
+      "duration": 284.468,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:11:57.418Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/55qh0lJOiiRpm4mp"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "bbIRrVUCNHOGWcMl",
+      "executionResult": "FAILED",
+      "duration": 1980.195,
+      "totalTests": 1,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:09:32.871Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/bbIRrVUCNHOGWcMl"
+    },
+    {
+      "execution": "TTMJiratIntegration",
+      "executionId": "2WtUbaLFWSlP5cNs",
+      "executionResult": "FAILED",
+      "duration": 807.509,
+      "totalTests": 34,
+      "failedCount": 2,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T12:04:55.252Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2WtUbaLFWSlP5cNs"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "VBI1KECyBaklqMEF",
+      "executionResult": "FAILED",
+      "duration": 383.925,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T11:42:05.108Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/VBI1KECyBaklqMEF"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "8DcoN4Pcf4tZy1nv",
+      "executionResult": "FAILED",
+      "duration": 306.866,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T11:11:56.042Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/8DcoN4Pcf4tZy1nv"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "6olt87B3wiG16Hz1",
+      "executionResult": "FAILED",
+      "duration": 93.592,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:26:04.953Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/6olt87B3wiG16Hz1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "WGqhEEL4zzxFlsQg",
+      "executionResult": "FAILED",
+      "duration": 75.212,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:23:06.860Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/WGqhEEL4zzxFlsQg"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "s3UYO3zKBiXhhHAM",
+      "executionResult": "PASSED",
+      "duration": 291.454,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:17:59.949Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/s3UYO3zKBiXhhHAM"
+    },
+    {
+      "execution": "local-execution",
+      "executionId": "zTbYbfxL9FHn4ZPf",
+      "executionResult": "FAILED",
+      "duration": 12.981,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:16:51.938Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/zTbYbfxL9FHn4ZPf"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "5jtFgqrj2o5cPChz",
+      "executionResult": "PASSED",
+      "duration": 133.289,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:15:37.196Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/5jtFgqrj2o5cPChz"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "V1LVjdH8mTupFBSZ",
+      "executionResult": "FAILED",
+      "duration": 544.185,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:10:51.303Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/V1LVjdH8mTupFBSZ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "T0FFuh4ZoBqztf7h",
+      "executionResult": "FAILED",
+      "duration": 6037.646,
+      "totalTests": 1,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:09:11.009Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/T0FFuh4ZoBqztf7h"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ridDfZbsCiQeYU32",
+      "executionResult": "PASSED",
+      "duration": 268.157,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T10:04:56.489Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ridDfZbsCiQeYU32"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "sB7Or6gWIDpyfIjo",
+      "executionResult": "PASSED",
+      "duration": 346.981,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:58:54.921Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/sB7Or6gWIDpyfIjo"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "lTXqzpz6VGBPcnsF",
+      "executionResult": "ABORTED",
+      "duration": 635.231,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:58:25.187Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/lTXqzpz6VGBPcnsF"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "eL2tGtA9E2wBnmos",
+      "executionResult": "PASSED",
+      "duration": 57.844,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:56:48.383Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/eL2tGtA9E2wBnmos"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "At3YazbYsuwEGKe4",
+      "executionResult": "FAILED",
+      "duration": 211.409,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "safari"
+      ],
+      "startTime": "2023-12-26T09:56:03.858Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/At3YazbYsuwEGKe4"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "QrwqaCt2xV8DUL29",
+      "executionResult": "PASSED",
+      "duration": 70.991,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:52:24.232Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/QrwqaCt2xV8DUL29"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "aw0ahrpmhxlRTbB3",
+      "executionResult": "PASSED",
+      "duration": 74.89,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:50:24.044Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/aw0ahrpmhxlRTbB3"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "80CA3A26resUR7TC",
+      "executionResult": "PASSED",
+      "duration": 510.644,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:48:56.343Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/80CA3A26resUR7TC"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "UgPCtKNwowA0iZ4J",
+      "executionResult": "PASSED",
+      "duration": 51.846,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:48:21.005Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/UgPCtKNwowA0iZ4J"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "fSMI4rKeR2SD6rio",
+      "executionResult": "FAILED",
+      "duration": 90.033,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:46:27.529Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/fSMI4rKeR2SD6rio"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "GW3NqlX3AdlGN64T",
+      "executionResult": "PASSED",
+      "duration": 282.235,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:43:58.722Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/GW3NqlX3AdlGN64T"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "KoG7qrcnPoI4mlRQ",
+      "executionResult": "FAILED",
+      "duration": 91.786,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T09:42:47.530Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/KoG7qrcnPoI4mlRQ"
+    },
+    {
+      "execution": "Quarantine_ReTest_Dec18",
+      "executionId": "cL0XNeQkOqEGo6JR",
+      "executionResult": "FAILED",
+      "duration": 2186.884,
+      "totalTests": 48,
+      "failedCount": 50,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:35:07.008Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/cL0XNeQkOqEGo6JR"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "tJoieFMmAb75p0ik",
+      "executionResult": "FAILED",
+      "duration": 215.051,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:18:53.099Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/tJoieFMmAb75p0ik"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "5G2QECNFvu880lb8",
+      "executionResult": "FAILED",
+      "duration": 514.126,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:18:50.225Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/5G2QECNFvu880lb8"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "GmPuaFieQQveqdGi",
+      "executionResult": "FAILED",
+      "duration": 117.773,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:18:46.372Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/GmPuaFieQQveqdGi"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "5b5rxwEuj5nK7atn",
+      "executionResult": "FAILED",
+      "duration": 76.815,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:18:44.082Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/5b5rxwEuj5nK7atn"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ZWiEbvqQhJd1QDa7",
+      "executionResult": "FAILED",
+      "duration": 246.352,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:18:41.098Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ZWiEbvqQhJd1QDa7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "rHoslo5C2hLkrNW1",
+      "executionResult": "PASSED",
+      "duration": 236.022,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:18:38.641Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rHoslo5C2hLkrNW1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "UgUG5DIl3dqfW7uj",
+      "executionResult": "FAILED",
+      "duration": 148.398,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:10:23.399Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/UgUG5DIl3dqfW7uj"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "gjrvmlbFbFQDBbFA",
+      "executionResult": "FAILED",
+      "duration": 481.581,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T08:08:22.725Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/gjrvmlbFbFQDBbFA"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "zuqWxVbFBcXIN448",
+      "executionResult": "FAILED",
+      "duration": 86.831,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:59:12.760Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/zuqWxVbFBcXIN448"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "DuiLKFq3PLlRscBA",
+      "executionResult": "PASSED",
+      "duration": 178.484,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:58:04.438Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/DuiLKFq3PLlRscBA"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "KaqkhgAoH2uVPCRW",
+      "executionResult": "PASSED",
+      "duration": 740.043,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:56:33.590Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/KaqkhgAoH2uVPCRW"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "12JW2EDsMYgz7B1W",
+      "executionResult": "PASSED",
+      "duration": 105.388,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:54:32.212Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/12JW2EDsMYgz7B1W"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "aedSjaaNSCj5ALwX",
+      "executionResult": "FAILED",
+      "duration": 162.01,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:52:17.116Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/aedSjaaNSCj5ALwX"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "2icVcNupRxOg6Qo1",
+      "executionResult": "PASSED",
+      "duration": 134.73,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:52:14.828Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2icVcNupRxOg6Qo1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "JDcWS8xWdNLKuyec",
+      "executionResult": "PASSED",
+      "duration": 95.414,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:51:39.095Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/JDcWS8xWdNLKuyec"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "07Y4VkbOFCER4K4w",
+      "executionResult": "PASSED",
+      "duration": 108.312,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:48:08.340Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/07Y4VkbOFCER4K4w"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "kdraYwnpdZHKCGUZ",
+      "executionResult": "FAILED",
+      "duration": 167.869,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:48:06.388Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/kdraYwnpdZHKCGUZ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "U9KuaOkHmeKHIxFD",
+      "executionResult": "PASSED",
+      "duration": 101.69,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:48:02.781Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/U9KuaOkHmeKHIxFD"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "gLgOjn9eDjSi0lFR",
+      "executionResult": "PASSED",
+      "duration": 395.321,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:43:36.378Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/gLgOjn9eDjSi0lFR"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "vlV7dv9wFb21dkjg",
+      "executionResult": "PASSED",
+      "duration": 229.729,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:43:28.558Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/vlV7dv9wFb21dkjg"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "x1UMyVpSZRfWnyn9",
+      "executionResult": "PASSED",
+      "duration": 439.501,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:43:22.257Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/x1UMyVpSZRfWnyn9"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "vzNdO477mLwy4YnR",
+      "executionResult": "FAILED",
+      "duration": 1854.955,
+      "totalTests": 1,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:43:10.389Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/vzNdO477mLwy4YnR"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Tb2BaaiHlEerNq88",
+      "executionResult": "PASSED",
+      "duration": 559.624,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T07:43:07.845Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Tb2BaaiHlEerNq88"
+    },
+    {
+      "execution": "Re-test-26th-Dec",
+      "executionId": "s6EzWW3STUHFaAr3",
+      "executionResult": "FAILED",
+      "duration": 2939.525,
+      "totalTests": 87,
+      "failedCount": 29,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:52:17.025Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/s6EzWW3STUHFaAr3"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "uPcYgXVktyxWc063",
+      "executionResult": "ABORTED",
+      "duration": 675.305,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:48:37.997Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/uPcYgXVktyxWc063"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "miU32HhyAbsmgZl0",
+      "executionResult": "PASSED",
+      "duration": 205.767,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:48:27.723Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/miU32HhyAbsmgZl0"
+    },
+    {
+      "execution": "Re-test",
+      "executionId": "6tMAQmbJbFvuXj6R",
+      "executionResult": "ABORTED",
+      "duration": 1002.137,
+      "totalTests": 87,
+      "failedCount": 21,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:30:44.189Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/6tMAQmbJbFvuXj6R"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "9hA7dAqWiHD7Z4Te",
+      "executionResult": "FAILED",
+      "duration": 84.818,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:16:09.644Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/9hA7dAqWiHD7Z4Te"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "yWNcfP1sfx9YBxB7",
+      "executionResult": "PASSED",
+      "duration": 266.738,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:12:57.874Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/yWNcfP1sfx9YBxB7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "rq5OtOJwztOur0zK",
+      "executionResult": "PASSED",
+      "duration": 538.5,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:12:21.838Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rq5OtOJwztOur0zK"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "a998bbgs57YxE708",
+      "executionResult": "FAILED",
+      "duration": 95.599,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:12:07.429Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/a998bbgs57YxE708"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "fViktzwjlzkC1Gzx",
+      "executionResult": "PASSED",
+      "duration": 239.289,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:12:04.241Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/fViktzwjlzkC1Gzx"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "rjbfWfQ6YtrXS6CW",
+      "executionResult": "FAILED",
+      "duration": 193.362,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:10:15.472Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rjbfWfQ6YtrXS6CW"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "th5cBQmq9JVcmkQu",
+      "executionResult": "PASSED",
+      "duration": 437.066,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:09:52.356Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/th5cBQmq9JVcmkQu"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "p6NyyL8c8tNHyFzy",
+      "executionResult": "PASSED",
+      "duration": 132.811,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:09:25.832Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/p6NyyL8c8tNHyFzy"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "hThNVSGVuPSp1w0X",
+      "executionResult": "FAILED",
+      "duration": 604.043,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:07:03.807Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/hThNVSGVuPSp1w0X"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "77tiXHoKB1xMc8La",
+      "executionResult": "FAILED",
+      "duration": 150.711,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:06:57.625Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/77tiXHoKB1xMc8La"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "x5FF9Cwl3kGT8PWB",
+      "executionResult": "FAILED",
+      "duration": 96.987,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:04:25.875Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/x5FF9Cwl3kGT8PWB"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "9ELoUdWFPchttssf",
+      "executionResult": "FAILED",
+      "duration": 223.695,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:01:35.796Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/9ELoUdWFPchttssf"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "rJP4VPTVOLOLeJke",
+      "executionResult": "FAILED",
+      "duration": 122.244,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:01:11.553Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rJP4VPTVOLOLeJke"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "gI45kodcyUY1R4BO",
+      "executionResult": "FAILED",
+      "duration": 96.609,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:01:05.192Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/gI45kodcyUY1R4BO"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "aknSSqCZORTRVhG7",
+      "executionResult": "FAILED",
+      "duration": 158.485,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:01:01.816Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/aknSSqCZORTRVhG7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "xvgjMGufSRwztXwU",
+      "executionResult": "FAILED",
+      "duration": 94.313,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T06:00:32.789Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/xvgjMGufSRwztXwU"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "aNehzwTgDwosINhB",
+      "executionResult": "FAILED",
+      "duration": 114.624,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T05:58:38.214Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/aNehzwTgDwosINhB"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "xHqOsOpms4FrA9bH",
+      "executionResult": "PASSED",
+      "duration": 100.298,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T05:58:03.024Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/xHqOsOpms4FrA9bH"
+    },
+    {
+      "execution": "End to End-All-Sequential / Regression2-Sequential",
+      "executionId": "I4CiJsiCH7GRnj4y",
+      "executionResult": "FAILED",
+      "duration": 9567.085,
+      "totalTests": 50,
+      "failedCount": 23,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-26T05:00:27.899Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/I4CiJsiCH7GRnj4y"
+    },
+    {
+      "execution": "End to End-All-Parallel / e2e-all",
+      "executionId": "OiRLZWyIx7qp8WF1",
+      "executionResult": "FAILED",
+      "duration": 9066.098,
+      "totalTests": 532,
+      "failedCount": 80,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-25T22:00:39.959Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/OiRLZWyIx7qp8WF1"
+    },
+    {
+      "execution": "End to End-All-Sequential / Regression2-Sequential",
+      "executionId": "64xzXzeWG0lysxh7",
+      "executionResult": "FAILED",
+      "duration": 9591.462,
+      "totalTests": 50,
+      "failedCount": 23,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-25T05:01:07.091Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/64xzXzeWG0lysxh7"
+    },
+    {
+      "execution": "End to End-All-Parallel / e2e-all",
+      "executionId": "nvlyvXxExV5TYWYG",
+      "executionResult": "FAILED",
+      "duration": 8894.223,
+      "totalTests": 532,
+      "failedCount": 74,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-24T22:00:47.581Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/nvlyvXxExV5TYWYG"
+    },
+    {
+      "execution": "End to End-All-Parallel / e2e-all",
+      "executionId": "meFT1KPRL8BMDkVT",
+      "executionResult": "FAILED",
+      "duration": 9124.094,
+      "totalTests": 532,
+      "failedCount": 66,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T22:00:42.867Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/meFT1KPRL8BMDkVT"
+    },
+    {
+      "execution": "[pr-preview] sanity-all | 7300542031 - platform:2.0.1-feature-testim-fix-10ef887",
+      "executionId": "uGSBkNvcJYGwpYAa",
+      "executionResult": "FAILED",
+      "duration": 814.993,
+      "totalTests": 43,
+      "failedCount": 14,
       "concurrency": 5,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-15T03:45:54.562Z",
+      "startTime": "2023-12-22T13:57:33.456Z",
       "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/5dtmnL5Khta1xqv1"
+      "resultLabels": [
+        "github-actions",
+        "pr-preview"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/uGSBkNvcJYGwpYAa"
     },
     {
-      "execution": "[qa] sanity-all | 7209338542 - platform:2.0.1-develop-c539c73",
-      "executionId": "ROfKeFBWYF5lEAHO",
-      "executionResult": "FAILED",
-      "duration": 1129.049,
-      "totalTests": 20,
-      "failedCount": 2,
-      "concurrency": 3,
+      "execution": "remote-run",
+      "executionId": "OgUrfurkXu7MdT8b",
+      "executionResult": "PASSED",
+      "duration": 224.743,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-14T13:12:46.210Z",
+      "startTime": "2023-12-22T13:55:16.747Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/OgUrfurkXu7MdT8b"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Rz4m6WJMITU9JTUz",
+      "executionResult": "FAILED",
+      "duration": 232.705,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T13:47:44.409Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Rz4m6WJMITU9JTUz"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "oWduDxFInL19JHtz",
+      "executionResult": "FAILED",
+      "duration": 228.397,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T13:47:34.646Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/oWduDxFInL19JHtz"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "XotUIXkgqwAUd9Q3",
+      "executionResult": "FAILED",
+      "duration": 204.996,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T13:27:41.317Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XotUIXkgqwAUd9Q3"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "i0V5NCgWvsjMqlZd",
+      "executionResult": "FAILED",
+      "duration": 200.207,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T13:16:03.511Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/i0V5NCgWvsjMqlZd"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "u09PeKylnmlMAjRe",
+      "executionResult": "FAILED",
+      "duration": 167.753,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T12:55:32.638Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/u09PeKylnmlMAjRe"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "nvq7dlGDY0omZFfI",
+      "executionResult": "FAILED",
+      "duration": 129.315,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T12:52:38.016Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/nvq7dlGDY0omZFfI"
+    },
+    {
+      "execution": "TTMJiratIntegration",
+      "executionId": "IVq85NoyKZiXCDun",
+      "executionResult": "FAILED",
+      "duration": 697.813,
+      "totalTests": 34,
+      "failedCount": 3,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T12:48:58.746Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/IVq85NoyKZiXCDun"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "331g4OjMzxdIOX72",
+      "executionResult": "FAILED",
+      "duration": 65.273,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T12:28:20.191Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/331g4OjMzxdIOX72"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "lkgcmzqtHlh3srlL",
+      "executionResult": "PASSED",
+      "duration": 165.77,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T12:24:30.705Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/lkgcmzqtHlh3srlL"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "FhGe9NM0LCbQUuNr",
+      "executionResult": "FAILED",
+      "duration": 160.393,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T12:21:30.388Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/FhGe9NM0LCbQUuNr"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "bKni1pXrQeSsdfeQ",
+      "executionResult": "PASSED",
+      "duration": 133.994,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T12:15:56.097Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/bKni1pXrQeSsdfeQ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "72HcqoRHQCAJhNS2",
+      "executionResult": "FAILED",
+      "duration": 89.345,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:38:17.349Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/72HcqoRHQCAJhNS2"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "VjSlHqk63tZHag9o",
+      "executionResult": "FAILED",
+      "duration": 101.758,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:28:55.413Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/VjSlHqk63tZHag9o"
+    },
+    {
+      "execution": "[qa] sanity-all | 7287058345 - platform:2.0.1-develop-6a64027",
+      "executionId": "B1O4P78KdqIKU9Ge",
+      "executionResult": "FAILED",
+      "duration": 889.859,
+      "totalTests": 43,
+      "failedCount": 4,
+      "concurrency": 5,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:25:03.804Z",
       "turboMode": false,
       "resultLabels": [
         "github-actions",
         "qa"
       ],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ROfKeFBWYF5lEAHO"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/B1O4P78KdqIKU9Ge"
     },
     {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "VlEWcyzhLzSrDISM",
+      "execution": "remote-run",
+      "executionId": "BDMnUtCktCpO6XGT",
       "executionResult": "FAILED",
-      "duration": 17328.183,
-      "totalTests": 532,
-      "failedCount": 72,
+      "duration": 99.84,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:24:39.836Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/BDMnUtCktCpO6XGT"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "XydGjvOLBhAfgBgi",
+      "executionResult": "FAILED",
+      "duration": 90.105,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:20:38.993Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XydGjvOLBhAfgBgi"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "H7AR2ul7nBNYiPxP",
+      "executionResult": "FAILED",
+      "duration": 172.56,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:18:58.389Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/H7AR2ul7nBNYiPxP"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "p75DsaJTZDMraLyZ",
+      "executionResult": "ABORTED",
+      "duration": 104.713,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:18:02.761Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/p75DsaJTZDMraLyZ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "uvESiGH7AeVfO974",
+      "executionResult": "FAILED",
+      "duration": 141.209,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:02:19.688Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/uvESiGH7AeVfO974"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "apIJLPeIkP8lzZra",
+      "executionResult": "ABORTED",
+      "duration": 84.76,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T11:00:31.632Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/apIJLPeIkP8lzZra"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "4GQZnikKngeJOhEI",
+      "executionResult": "FAILED",
+      "duration": 300.078,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T10:49:58.520Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/4GQZnikKngeJOhEI"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "UurpVJ65Bh3qgUW3",
+      "executionResult": "FAILED",
+      "duration": 300.371,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T10:39:40.171Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/UurpVJ65Bh3qgUW3"
+    },
+    {
+      "execution": "[dev] sanity-all | 7287324675 - platform:2.0.1-develop-7d591ca",
+      "executionId": "6VCWLEN4naxdDiNw",
+      "executionResult": "FAILED",
+      "duration": 786.889,
+      "totalTests": 43,
+      "failedCount": 7,
       "concurrency": 5,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-14T07:39:12.165Z",
+      "startTime": "2023-12-22T10:29:41.595Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "dev"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/6VCWLEN4naxdDiNw"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "EENTYapBQz9qNBv1",
+      "executionResult": "FAILED",
+      "duration": 179.194,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T10:02:38.706Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/VlEWcyzhLzSrDISM"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EENTYapBQz9qNBv1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "L5LfEnBUFnhXStm7",
+      "executionResult": "FAILED",
+      "duration": 176.395,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T09:58:31.659Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/L5LfEnBUFnhXStm7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "6NCIcpUKFlvUYMAG",
+      "executionResult": "FAILED",
+      "duration": 191.002,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T09:54:53.513Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/6NCIcpUKFlvUYMAG"
+    },
+    {
+      "execution": "8879 entities",
+      "executionId": "tvv3u9T0Q9EwOj8I",
+      "executionResult": "PASSED",
+      "duration": 667.574,
+      "totalTests": 2,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T09:44:47.343Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/tvv3u9T0Q9EwOj8I"
+    },
+    {
+      "execution": "8879 entities",
+      "executionId": "g8u7IF8nXDfBKm3Z",
+      "executionResult": "FAILED",
+      "duration": 790.538,
+      "totalTests": 2,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T09:30:17.496Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/g8u7IF8nXDfBKm3Z"
+    },
+    {
+      "execution": "8879 entities",
+      "executionId": "5NNq83n2wLEN8NFI",
+      "executionResult": "FAILED",
+      "duration": 757.618,
+      "totalTests": 2,
+      "failedCount": 2,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T09:05:07.608Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/5NNq83n2wLEN8NFI"
+    },
+    {
+      "execution": "TTMIntegrationTestIM",
+      "executionId": "DDAnnhtTLC7W9zKS",
+      "executionResult": "FAILED",
+      "duration": 179.468,
+      "totalTests": 6,
+      "failedCount": 1,
+      "concurrency": 4,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T08:36:12.656Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/DDAnnhtTLC7W9zKS"
+    },
+    {
+      "execution": "TTMJiratIntegration",
+      "executionId": "2bGE2ftCqrJjAhNP",
+      "executionResult": "FAILED",
+      "duration": 535.434,
+      "totalTests": 6,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T08:22:01.095Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2bGE2ftCqrJjAhNP"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "qaCjPLkhzl2MgeDO",
+      "executionResult": "PASSED",
+      "duration": 153.275,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T07:07:34.161Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/qaCjPLkhzl2MgeDO"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "yDbDrMCbMCkDMNP7",
+      "executionResult": "PASSED",
+      "duration": 216.344,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T07:01:56.785Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/yDbDrMCbMCkDMNP7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "JSBuXUnhAzbL3gRd",
+      "executionResult": "PASSED",
+      "duration": 137.33,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:35:31.485Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/JSBuXUnhAzbL3gRd"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Qd86l1g3OAC4UjSi",
+      "executionResult": "PASSED",
+      "duration": 159.034,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:32:31.479Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Qd86l1g3OAC4UjSi"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "keDTmM0xOEjkk7C1",
+      "executionResult": "PASSED",
+      "duration": 282.52,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:27:43.383Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/keDTmM0xOEjkk7C1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "gme2IXhpgEp7t1bG",
+      "executionResult": "FAILED",
+      "duration": 185.802,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:27:18.096Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/gme2IXhpgEp7t1bG"
+    },
+    {
+      "execution": "Quarantine_ReTest_Dec18",
+      "executionId": "PYLAdDQ3mvnKtl58",
+      "executionResult": "FAILED",
+      "duration": 2269.276,
+      "totalTests": 56,
+      "failedCount": 55,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:23:11.183Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/PYLAdDQ3mvnKtl58"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "EVtf1Gq3mtFhKvy9",
+      "executionResult": "FAILED",
+      "duration": 179.34,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:22:06.998Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EVtf1Gq3mtFhKvy9"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "7F2hACuAaNCgMwCe",
+      "executionResult": "PASSED",
+      "duration": 66.703,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:10:21.300Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/7F2hACuAaNCgMwCe"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "wfRvU9hAEx1vodMu",
+      "executionResult": "PASSED",
+      "duration": 172.421,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T06:06:54.566Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/wfRvU9hAEx1vodMu"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "27luKIyPIwuBC681",
+      "executionResult": "PASSED",
+      "duration": 413.666,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:35:11.408Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/27luKIyPIwuBC681"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "hAy5dhnbZHxSp73k",
+      "executionResult": "PASSED",
+      "duration": 188.012,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:32:29.259Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/hAy5dhnbZHxSp73k"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "zKbcn46t1UQU99yA",
+      "executionResult": "PASSED",
+      "duration": 147.816,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:29:31.313Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/zKbcn46t1UQU99yA"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ectoELnz4RaDfnQy",
+      "executionResult": "PASSED",
+      "duration": 195.573,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:16:30.114Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ectoELnz4RaDfnQy"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "oopaBQY77a89aLRR",
+      "executionResult": "PASSED",
+      "duration": 64.607,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:16:06.820Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/oopaBQY77a89aLRR"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "RU6MdSA7UIR0qtIT",
+      "executionResult": "PASSED",
+      "duration": 56.924,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:14:46.243Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/RU6MdSA7UIR0qtIT"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "PemXHp4YKv88YuxX",
+      "executionResult": "PASSED",
+      "duration": 1001.747,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:13:57.815Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/PemXHp4YKv88YuxX"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Rmak56rYz1KVrVs0",
+      "executionResult": "PASSED",
+      "duration": 60.336,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:10:39.446Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Rmak56rYz1KVrVs0"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "eGJQGIssR4ehSX9S",
+      "executionResult": "PASSED",
+      "duration": 527.782,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:07:00.196Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/eGJQGIssR4ehSX9S"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "XmX7OSFdrMXL0sxi",
+      "executionResult": "FAILED",
+      "duration": 1843.972,
+      "totalTests": 1,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:01:54.085Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XmX7OSFdrMXL0sxi"
     },
     {
       "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "gUbTGgfVxZpXcEtF",
+      "executionId": "ShghNxobVDiIEYlM",
       "executionResult": "FAILED",
-      "duration": 10237.711,
+      "duration": 8545.438,
       "totalTests": 50,
       "failedCount": 2,
       "concurrency": 1,
@@ -137,115 +3254,2134 @@
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-14T07:39:12.109Z",
+      "startTime": "2023-12-22T05:00:38.600Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/gUbTGgfVxZpXcEtF"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ShghNxobVDiIEYlM"
     },
     {
-      "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "KZSUOh9UZQp6MnXP",
-      "executionResult": "FAILED",
-      "duration": 29118.687,
-      "totalTests": 63,
-      "failedCount": 22,
-      "concurrency": 1,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-12T15:55:40.837Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/KZSUOh9UZQp6MnXP"
-    },
-    {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "rOt2l7x5uFlNJ34c",
-      "executionResult": "FAILED",
-      "duration": 16235.657,
-      "totalTests": 519,
-      "failedCount": 108,
-      "concurrency": 5,
-      "branch": "master",
-      "browser": [
-        "chrome"
-      ],
-      "startTime": "2023-12-12T15:55:40.582Z",
-      "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rOt2l7x5uFlNJ34c"
-    },
-    {
-      "execution": "End to End-All-Sequential / Regression2-Sequential",
-      "executionId": "17tQQQ3cqwcUCPTi",
-      "executionResult": "ABORTED",
-      "duration": 20.183,
-      "totalTests": 63,
+      "execution": "remote-run",
+      "executionId": "6j2vhAZ0K6BT8HCZ",
+      "executionResult": "PASSED",
+      "duration": 87.46,
+      "totalTests": 1,
       "failedCount": 0,
       "concurrency": 1,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-12T15:45:34.413Z",
+      "startTime": "2023-12-22T05:00:38.005Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/17tQQQ3cqwcUCPTi"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/6j2vhAZ0K6BT8HCZ"
     },
     {
-      "execution": "End to End-All-Parallel / Regression1-Parallel",
-      "executionId": "DA4OuGhvBKLSNLoW",
-      "executionResult": "ABORTED",
-      "duration": 27.266,
-      "totalTests": 519,
+      "execution": "remote-run",
+      "executionId": "8LZN77oNSWStCKgF",
+      "executionResult": "PASSED",
+      "duration": 142.178,
+      "totalTests": 1,
       "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:00:16.244Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/8LZN77oNSWStCKgF"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "tXoPA9T5r5Z44jpe",
+      "executionResult": "PASSED",
+      "duration": 73.1,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-22T05:00:14.959Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/tXoPA9T5r5Z44jpe"
+    },
+    {
+      "execution": "End to End-All-Parallel / e2e-all",
+      "executionId": "zDYTUIsejaxQXtAA",
+      "executionResult": "FAILED",
+      "duration": 9908.083,
+      "totalTests": 532,
+      "failedCount": 30,
+      "concurrency": 7,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T22:00:39.728Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/zDYTUIsejaxQXtAA"
+    },
+    {
+      "execution": "DemoPlan",
+      "executionId": "SNATsKBhGntTlLqm",
+      "executionResult": "PASSED",
+      "duration": 79.089,
+      "totalTests": 2,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T20:06:58.357Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/SNATsKBhGntTlLqm"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Cl7MGc1BznodYjhs",
+      "executionResult": "PASSED",
+      "duration": 134.937,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T17:40:48.172Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Cl7MGc1BznodYjhs"
+    },
+    {
+      "execution": "[dev] sanity-all | 7287324675 - platform:2.0.1-develop-7d591ca",
+      "executionId": "3zzTAFx9kT9e0tUx",
+      "executionResult": "FAILED",
+      "duration": 539.223,
+      "totalTests": 43,
+      "failedCount": 39,
       "concurrency": 5,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-12T15:45:34.149Z",
+      "startTime": "2023-12-21T16:50:21.121Z",
       "turboMode": false,
-      "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/DA4OuGhvBKLSNLoW"
+      "resultLabels": [
+        "github-actions",
+        "dev"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/3zzTAFx9kT9e0tUx"
     },
     {
-      "execution": "e2e-all / Regression1-Parallel",
-      "executionId": "U1FQgRUEuTAUYiWy",
+      "execution": "remote-run",
+      "executionId": "8bSX5rMsLYIB2Cef",
+      "executionResult": "PASSED",
+      "duration": 56.992,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T14:19:21.425Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/8bSX5rMsLYIB2Cef"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "81eZkLeRtEs5zvw3",
+      "executionResult": "PASSED",
+      "duration": 339.102,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "safari"
+      ],
+      "startTime": "2023-12-21T12:53:59.316Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/81eZkLeRtEs5zvw3"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "fcLrXo8edIqtS3fR",
       "executionResult": "FAILED",
-      "duration": 10440.402,
-      "totalTests": 521,
-      "failedCount": 156,
+      "duration": 187.115,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T12:36:56.760Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/fcLrXo8edIqtS3fR"
+    },
+    {
+      "execution": "8879 assure esign",
+      "executionId": "XV3ARgbUn60xlo3a",
+      "executionResult": "PASSED",
+      "duration": 312.867,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T12:34:58.326Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XV3ARgbUn60xlo3a"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "C1Emy7INpQ1ZOkMH",
+      "executionResult": "FAILED",
+      "duration": 179.513,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T12:12:05.903Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/C1Emy7INpQ1ZOkMH"
+    },
+    {
+      "execution": "8879 assure esign",
+      "executionId": "JsHAIjg9WF3TSOUm",
+      "executionResult": "FAILED",
+      "duration": 624.231,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T11:45:26.468Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/JsHAIjg9WF3TSOUm"
+    },
+    {
+      "execution": "8879 assure esign",
+      "executionId": "dqBENMut4oDBhdq6",
+      "executionResult": "ABORTED",
+      "duration": 545.37,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T11:36:08.561Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/dqBENMut4oDBhdq6"
+    },
+    {
+      "execution": "8879 assure esign",
+      "executionId": "TlApi373WX8yh0La",
+      "executionResult": "FAILED",
+      "duration": 726.04,
+      "totalTests": 3,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T11:22:17.149Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/TlApi373WX8yh0La"
+    },
+    {
+      "execution": "[dev] sanity-all | 7287324675 - platform:2.0.1-develop-7d591ca",
+      "executionId": "n8HSOlQr2WgCfKV3",
+      "executionResult": "FAILED",
+      "duration": 534.811,
+      "totalTests": 43,
+      "failedCount": 39,
+      "concurrency": 5,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T11:07:26.153Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "dev"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/n8HSOlQr2WgCfKV3"
+    },
+    {
+      "execution": "[qa] sanity-all | 7287058345 - platform:2.0.1-develop-6a64027",
+      "executionId": "AMkVPveAGH9joMTf",
+      "executionResult": "FAILED",
+      "duration": 1069.17,
+      "totalTests": 43,
+      "failedCount": 2,
+      "concurrency": 5,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:47:39.355Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/AMkVPveAGH9joMTf"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Mx7PygcODIBRA5IJ",
+      "executionResult": "FAILED",
+      "duration": 176.794,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:35:30.958Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Mx7PygcODIBRA5IJ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "TEX8IkI2xAM84KDV",
+      "executionResult": "FAILED",
+      "duration": 184.544,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:29:41.426Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/TEX8IkI2xAM84KDV"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Ts7UXMRvft16lrn5",
+      "executionResult": "FAILED",
+      "duration": 374.729,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:28:27.933Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Ts7UXMRvft16lrn5"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "m6v5Wx2RDeO5UcxQ",
+      "executionResult": "FAILED",
+      "duration": 201.031,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:27:22.115Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/m6v5Wx2RDeO5UcxQ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "nGiiU7b4v8hoMH2c",
+      "executionResult": "FAILED",
+      "duration": 190.183,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:13:52.321Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/nGiiU7b4v8hoMH2c"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "2LLWHFkbUuKNVzXX",
+      "executionResult": "PASSED",
+      "duration": 303.009,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:05:20.895Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2LLWHFkbUuKNVzXX"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "rkkdqJozb6iCiTq6",
+      "executionResult": "FAILED",
+      "duration": 187.427,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T10:02:43.161Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rkkdqJozb6iCiTq6"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ex5MfIb4zsPCosDE",
+      "executionResult": "PASSED",
+      "duration": 239.981,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T09:57:22.786Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ex5MfIb4zsPCosDE"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "iZJROCB6tp0E97Hb",
+      "executionResult": "PASSED",
+      "duration": 300.901,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T09:56:17.649Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/iZJROCB6tp0E97Hb"
+    },
+    {
+      "execution": "e2e-tax-organizer",
+      "executionId": "jPOFjRNOAeo2PTQN",
+      "executionResult": "FAILED",
+      "duration": 2275.29,
+      "totalTests": 42,
+      "failedCount": 2,
       "concurrency": 6,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-11T18:00:20.416Z",
+      "startTime": "2023-12-21T09:44:15.750Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/U1FQgRUEuTAUYiWy"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/jPOFjRNOAeo2PTQN"
     },
     {
-      "execution": "sanity / sanity-all",
-      "executionId": "EG3b819cui85Kyiq",
-      "executionResult": "FAILED",
-      "duration": 1570.487,
+      "execution": "e2e-tax-organizer",
+      "executionId": "XDlLCSBcRsZltYPc",
+      "executionResult": "ABORTED",
+      "duration": 57.22,
       "totalTests": 42,
-      "failedCount": 6,
-      "concurrency": 4,
+      "failedCount": 0,
+      "concurrency": 3,
       "branch": "master",
       "browser": [
         "chrome"
       ],
-      "startTime": "2023-12-11T11:53:55.651Z",
+      "startTime": "2023-12-21T09:42:57.170Z",
       "turboMode": false,
       "resultLabels": [],
-      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EG3b819cui85Kyiq"
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XDlLCSBcRsZltYPc"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Jm6y2jH36k28Fu1H",
+      "executionResult": "PASSED",
+      "duration": 357.571,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T08:43:46.947Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Jm6y2jH36k28Fu1H"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Y2xMLdW7wxoO0SEA",
+      "executionResult": "FAILED",
+      "duration": 521.211,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T08:20:19.409Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Y2xMLdW7wxoO0SEA"
+    },
+    {
+      "execution": "e2e-tax-organizer",
+      "executionId": "OX6YoYt9qO2ZxLsa",
+      "executionResult": "FAILED",
+      "duration": 4022.334,
+      "totalTests": 42,
+      "failedCount": 5,
+      "concurrency": 3,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T08:13:03.391Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/OX6YoYt9qO2ZxLsa"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Bfygp2PXITew4PSg",
+      "executionResult": "FAILED",
+      "duration": 323.515,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T08:12:49.463Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Bfygp2PXITew4PSg"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "cRbqSpP8T69JfLto",
+      "executionResult": "PASSED",
+      "duration": 180.491,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T08:06:46.365Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/cRbqSpP8T69JfLto"
+    },
+    {
+      "execution": "Quarantine_ReTest_Dec18",
+      "executionId": "HPgah9jCpUf2KFmr",
+      "executionResult": "FAILED",
+      "duration": 3960.813,
+      "totalTests": 74,
+      "failedCount": 57,
+      "concurrency": 5,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:58:52.639Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/HPgah9jCpUf2KFmr"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "w56VXqvB7ZOFQMMW",
+      "executionResult": "FAILED",
+      "duration": 241.102,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:50:47.371Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/w56VXqvB7ZOFQMMW"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "WQhHys888DXGU9hg",
+      "executionResult": "FAILED",
+      "duration": 436.774,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:50:08.187Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/WQhHys888DXGU9hg"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "YYSIG7qT14xXrOxk",
+      "executionResult": "FAILED",
+      "duration": 247.792,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:37:35.008Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/YYSIG7qT14xXrOxk"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "XjtprNfUvMYoK9ZC",
+      "executionResult": "FAILED",
+      "duration": 224.848,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:30:45.561Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XjtprNfUvMYoK9ZC"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Gnb5pIgQEC0YpHSz",
+      "executionResult": "PASSED",
+      "duration": 197.673,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:15:48.446Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Gnb5pIgQEC0YpHSz"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "FggkdAh8KjpXHCMD",
+      "executionResult": "FAILED",
+      "duration": 245.171,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:08:38.163Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/FggkdAh8KjpXHCMD"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "pJkp2a4KUzbYooFd",
+      "executionResult": "FAILED",
+      "duration": 168.84,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:06:28.237Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/pJkp2a4KUzbYooFd"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "MlGxAlWQBQQIlpzS",
+      "executionResult": "FAILED",
+      "duration": 132.993,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T07:00:22.538Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/MlGxAlWQBQQIlpzS"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "xO0AAhFw5JrNbyNd",
+      "executionResult": "PASSED",
+      "duration": 90.126,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:58:12.535Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/xO0AAhFw5JrNbyNd"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "fajakJbUpHx1YD3d",
+      "executionResult": "FAILED",
+      "duration": 131.342,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:56:05.129Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/fajakJbUpHx1YD3d"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "x2XwJ1pNXo9anPq7",
+      "executionResult": "FAILED",
+      "duration": 171.867,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:55:45.779Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/x2XwJ1pNXo9anPq7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ynFNoHuG5024HHxk",
+      "executionResult": "FAILED",
+      "duration": 255.332,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:44:29.518Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ynFNoHuG5024HHxk"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "YZBfg4iWOgnNkdqk",
+      "executionResult": "FAILED",
+      "duration": 182.84,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:40:42.348Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/YZBfg4iWOgnNkdqk"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "L6wBgXGmohXwnOde",
+      "executionResult": "PASSED",
+      "duration": 96.665,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:37:36.807Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/L6wBgXGmohXwnOde"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "IvRtwdpdOwQERyov",
+      "executionResult": "FAILED",
+      "duration": 234.843,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:36:14.505Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/IvRtwdpdOwQERyov"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "b3aDyUg906DaWTc9",
+      "executionResult": "FAILED",
+      "duration": 171.769,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:20:40.653Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/b3aDyUg906DaWTc9"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "fXbVw2kH4AV6Oz9W",
+      "executionResult": "FAILED",
+      "duration": 114.799,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:19:09.640Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/fXbVw2kH4AV6Oz9W"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ZfMW0dmyOu7rHIMi",
+      "executionResult": "PASSED",
+      "duration": 108.927,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:18:36.622Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ZfMW0dmyOu7rHIMi"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "OnrjV0uDcdIsqmtP",
+      "executionResult": "PASSED",
+      "duration": 446.711,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:15:20.957Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/OnrjV0uDcdIsqmtP"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "qB7ojA3DWuq0fAGU",
+      "executionResult": "FAILED",
+      "duration": 117.525,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:09:56.137Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/qB7ojA3DWuq0fAGU"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "HloKr0AQJt15KTVt",
+      "executionResult": "PASSED",
+      "duration": 199.387,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:09:22.423Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/HloKr0AQJt15KTVt"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "tn8OzSzo7onjlTZN",
+      "executionResult": "FAILED",
+      "duration": 114.478,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:08:15.867Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/tn8OzSzo7onjlTZN"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "lZwcX4YsWY0hF5qS",
+      "executionResult": "PASSED",
+      "duration": 119.532,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:06:53.303Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/lZwcX4YsWY0hF5qS"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "xnWsdMli2jH3OZS1",
+      "executionResult": "FAILED",
+      "duration": 109.937,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:05:49.034Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/xnWsdMli2jH3OZS1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "9lLX3bKVkvGeDZgq",
+      "executionResult": "PASSED",
+      "duration": 174.595,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:05:17.088Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/9lLX3bKVkvGeDZgq"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "jcfXpcn1TIo6EvCk",
+      "executionResult": "FAILED",
+      "duration": 151.442,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:04:32.678Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/jcfXpcn1TIo6EvCk"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "4N5SaFTE5nmjMXVM",
+      "executionResult": "PASSED",
+      "duration": 295.087,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T06:01:04.702Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/4N5SaFTE5nmjMXVM"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "awi5lJduWWaiUpdo",
+      "executionResult": "PASSED",
+      "duration": 162.967,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:58:04.014Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/awi5lJduWWaiUpdo"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "VvpAm4YVcxhr3p03",
+      "executionResult": "PASSED",
+      "duration": 1162.975,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:53:12.092Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/VvpAm4YVcxhr3p03"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "8gR5oEMQ0880ari1",
+      "executionResult": "ABORTED",
+      "duration": 114.643,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:52:06.144Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/8gR5oEMQ0880ari1"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "bfQHqrphfVWNVwhQ",
+      "executionResult": "ABORTED",
+      "duration": 192.401,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:43:46.080Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/bfQHqrphfVWNVwhQ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "TT215iWfjTm1tyQ2",
+      "executionResult": "ABORTED",
+      "duration": 189.33,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:43:43.094Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/TT215iWfjTm1tyQ2"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "TUJnElobGSZcFyAO",
+      "executionResult": "FAILED",
+      "duration": 175.112,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:42:18.652Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/TUJnElobGSZcFyAO"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "S5rG4tUWuFCmilku",
+      "executionResult": "FAILED",
+      "duration": 347.516,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:38:58.495Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/S5rG4tUWuFCmilku"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "k2AU4Edk6mUCVUZk",
+      "executionResult": "PASSED",
+      "duration": 94.628,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:37:10.737Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/k2AU4Edk6mUCVUZk"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "vTHZhLXjESZxiZ6C",
+      "executionResult": "FAILED",
+      "duration": 199.635,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:34:54.666Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/vTHZhLXjESZxiZ6C"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "86VsuTXIIvdIImtv",
+      "executionResult": "FAILED",
+      "duration": 339.722,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:34:17.479Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/86VsuTXIIvdIImtv"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "n0q4pyNQjW1htnrm",
+      "executionResult": "ABORTED",
+      "duration": 1261.843,
+      "totalTests": 1,
+      "failedCount": 2,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:31:59.180Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/n0q4pyNQjW1htnrm"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "9QRcVgoeTvkxsdaf",
+      "executionResult": "FAILED",
+      "duration": 191.416,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:31:02.505Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/9QRcVgoeTvkxsdaf"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ZODY6gWU5OSeS8EL",
+      "executionResult": "PASSED",
+      "duration": 142.958,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:28:26.719Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ZODY6gWU5OSeS8EL"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "4jHtyyL2ilde2WuA",
+      "executionResult": "FAILED",
+      "duration": 41.798,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:26:12.417Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/4jHtyyL2ilde2WuA"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "Obddodn94d1rRaWN",
+      "executionResult": "FAILED",
+      "duration": 407.158,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:21:15.841Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Obddodn94d1rRaWN"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "26GsQ9ay5d7j5CIz",
+      "executionResult": "PASSED",
+      "duration": 346.701,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:09:47.941Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/26GsQ9ay5d7j5CIz"
+    },
+    {
+      "execution": "End to End-All-Sequential / Regression2-Sequential",
+      "executionId": "lxJbXmo6PSpano32",
+      "executionResult": "FAILED",
+      "duration": 9370.11,
+      "totalTests": 50,
+      "failedCount": 5,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-21T05:00:20.774Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/lxJbXmo6PSpano32"
+    },
+    {
+      "execution": "End to End-All-Parallel / e2e-all",
+      "executionId": "RgRkBW8EihOcsOac",
+      "executionResult": "FAILED",
+      "duration": 10892.443,
+      "totalTests": 532,
+      "failedCount": 60,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T22:00:51.109Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/RgRkBW8EihOcsOac"
+    },
+    {
+      "execution": "e2e-8879-entities",
+      "executionId": "BFqTQvOIEx7O1rB9",
+      "executionResult": "FAILED",
+      "duration": 7205.896,
+      "totalTests": 29,
+      "failedCount": 5,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T18:16:08.513Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/BFqTQvOIEx7O1rB9"
+    },
+    {
+      "execution": "[qa] sanity-all | 7277617212 - platform:2.0.1-develop-6a64027",
+      "executionId": "FDxTWvDq5inbCpfl",
+      "executionResult": "FAILED",
+      "duration": 1579.224,
+      "totalTests": 43,
+      "failedCount": 3,
+      "concurrency": 3,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T15:46:00.863Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/FDxTWvDq5inbCpfl"
+    },
+    {
+      "execution": "e2e-8879-entities",
+      "executionId": "UZbDIYpvmW7WMPXI",
+      "executionResult": "FAILED",
+      "duration": 7150.231,
+      "totalTests": 29,
+      "failedCount": 9,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T15:13:38.579Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/UZbDIYpvmW7WMPXI"
+    },
+    {
+      "execution": "8879 assure esign",
+      "executionId": "tt8QGexV3PJeZ8HO",
+      "executionResult": "PASSED",
+      "duration": 237.514,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T14:31:48.494Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/tt8QGexV3PJeZ8HO"
+    },
+    {
+      "execution": "8879 assure esign",
+      "executionId": "EH2p7t0bPmmhq9YR",
+      "executionResult": "FAILED",
+      "duration": 272.344,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T14:05:36.335Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/EH2p7t0bPmmhq9YR"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "KOdMcWvkdjov8AxM",
+      "executionResult": "FAILED",
+      "duration": 326.678,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T13:59:21.599Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/KOdMcWvkdjov8AxM"
+    },
+    {
+      "execution": "e2e-8879 assure",
+      "executionId": "8BiTXvkNwvK4V36d",
+      "executionResult": "FAILED",
+      "duration": 390.916,
+      "totalTests": 13,
+      "failedCount": 2,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T13:53:19.655Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/8BiTXvkNwvK4V36d"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "YiiuPoI9m73zDTnP",
+      "executionResult": "PASSED",
+      "duration": 283.559,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T13:36:35.246Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/YiiuPoI9m73zDTnP"
+    },
+    {
+      "execution": "8879 assure esign",
+      "executionId": "XRNPrtEP14CtPJiQ",
+      "executionResult": "FAILED",
+      "duration": 230.725,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T13:35:03.497Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/XRNPrtEP14CtPJiQ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ra609vit3I4rijw7",
+      "executionResult": "PASSED",
+      "duration": 633.712,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T13:28:10.100Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ra609vit3I4rijw7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "aKcVptkwhh9SC2W7",
+      "executionResult": "FAILED",
+      "duration": 1861.994,
+      "totalTests": 1,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T13:10:57.256Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/aKcVptkwhh9SC2W7"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "qo2IZDxNlGnVQFgN",
+      "executionResult": "FAILED",
+      "duration": 102.109,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T12:45:53.107Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/qo2IZDxNlGnVQFgN"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "ixkJ7rs8vOjc4N4p",
+      "executionResult": "PASSED",
+      "duration": 182.392,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T12:45:47.026Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ixkJ7rs8vOjc4N4p"
+    },
+    {
+      "execution": "e2e-8879-entities",
+      "executionId": "t70b3ZD4khNlnrtG",
+      "executionResult": "FAILED",
+      "duration": 6999.017,
+      "totalTests": 29,
+      "failedCount": 15,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T12:22:59.144Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/t70b3ZD4khNlnrtG"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "DC4fZveoEJYr9OIJ",
+      "executionResult": "FAILED",
+      "duration": 171.163,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T12:05:54.644Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/DC4fZveoEJYr9OIJ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "9loOHtZHiNZf7g6S",
+      "executionResult": "PASSED",
+      "duration": 399.839,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T12:05:50.565Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/9loOHtZHiNZf7g6S"
+    },
+    {
+      "execution": "e2e-8879-entities",
+      "executionId": "WY0VDmBWNHjEdQFw",
+      "executionResult": "ABORTED",
+      "duration": 1638.105,
+      "totalTests": 29,
+      "failedCount": 3,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T11:38:50.531Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/WY0VDmBWNHjEdQFw"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "dCfL1CV2l1crjNiI",
+      "executionResult": "PASSED",
+      "duration": 109.163,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T11:25:12.192Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/dCfL1CV2l1crjNiI"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "TUW0pkEQK9HKJgke",
+      "executionResult": "PASSED",
+      "duration": 179.017,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T11:24:42.793Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/TUW0pkEQK9HKJgke"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "cZDT4NwbTK01Q7Wd",
+      "executionResult": "FAILED",
+      "duration": 368.354,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T11:12:42.335Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/cZDT4NwbTK01Q7Wd"
+    },
+    {
+      "execution": "[qa] sample-plan | 7274415987 - platform:2.0.0",
+      "executionId": "Fp5sBfPSLJR0xHfn",
+      "executionResult": "FAILED",
+      "duration": 350.951,
+      "totalTests": 9,
+      "failedCount": 1,
+      "concurrency": 5,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:58:55.397Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Fp5sBfPSLJR0xHfn"
+    },
+    {
+      "execution": "e2e-elw-QA",
+      "executionId": "CimHBnRy9K4ENOrD",
+      "executionResult": "FAILED",
+      "duration": 1629.153,
+      "totalTests": 61,
+      "failedCount": 5,
+      "concurrency": 8,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:54:37.788Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/CimHBnRy9K4ENOrD"
+    },
+    {
+      "execution": "[qa] sample-plan | 7274359660 - platform:2.0.0",
+      "executionId": "QgH4o3kBXcytT5v9",
+      "executionResult": "FAILED",
+      "duration": 89.926,
+      "totalTests": 9,
+      "failedCount": 1,
+      "concurrency": 5,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:52:43.102Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/QgH4o3kBXcytT5v9"
+    },
+    {
+      "execution": "[qa] sample-plan | 7274314812 - platform:2.0.0",
+      "executionId": "oJQmmEMeRRXdtMeJ",
+      "executionResult": "FAILED",
+      "duration": 112.597,
+      "totalTests": 9,
+      "failedCount": 1,
+      "concurrency": 3,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:48:27.905Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/oJQmmEMeRRXdtMeJ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "iY3AWyxgq76ezNWK",
+      "executionResult": "FAILED",
+      "duration": 192.379,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:47:21.931Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/iY3AWyxgq76ezNWK"
+    },
+    {
+      "execution": "e2e-8879-entities",
+      "executionId": "CViyGKkndyP7yKTQ",
+      "executionResult": "ABORTED",
+      "duration": 373.16,
+      "totalTests": 29,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:41:31.352Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/CViyGKkndyP7yKTQ"
+    },
+    {
+      "execution": "[qa] sample-plan | 7274203217 - platform:2.0.0",
+      "executionId": "Bti73KmitwBI88NZ",
+      "executionResult": "FAILED",
+      "duration": 210.516,
+      "totalTests": 9,
+      "failedCount": 1,
+      "concurrency": 3,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:40:01.666Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Bti73KmitwBI88NZ"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "TpnvTJ2CF9Pr2vzA",
+      "executionResult": "PASSED",
+      "duration": 607.978,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:38:13.997Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/TpnvTJ2CF9Pr2vzA"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "rTj3gjkB3kL2fD85",
+      "executionResult": "FAILED",
+      "duration": 191.373,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:37:49.187Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/rTj3gjkB3kL2fD85"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "3TYbpcB58ewmKOtF",
+      "executionResult": "PASSED",
+      "duration": 66.262,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:20:50.602Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/3TYbpcB58ewmKOtF"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "2TRTj8IRukZQtYgf",
+      "executionResult": "FAILED",
+      "duration": 75.434,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:17:38.988Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/2TRTj8IRukZQtYgf"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "IFdGyVYMEnjS2p7W",
+      "executionResult": "PASSED",
+      "duration": 206.466,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:17:33.373Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/IFdGyVYMEnjS2p7W"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "RF1uqhMxatqWWbfV",
+      "executionResult": "FAILED",
+      "duration": 243.573,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:17:30.162Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/RF1uqhMxatqWWbfV"
+    },
+    {
+      "execution": "[qa] sample-plan | 7260267336 - platfrom:v2.0.0",
+      "executionId": "oJX6QLBqGZfppE6x",
+      "executionResult": "ABORTED",
+      "duration": 28.587,
+      "totalTests": 9,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:15:42.420Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/oJX6QLBqGZfppE6x"
+    },
+    {
+      "execution": "[qa] sample-plan | 7260267336 - platfrom:v2.0.0",
+      "executionId": "IyF8Rc5dyqSbXX7K",
+      "executionResult": "ABORTED",
+      "duration": 22.019,
+      "totalTests": 9,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:10:03.298Z",
+      "turboMode": false,
+      "resultLabels": [
+        "github-actions",
+        "qa"
+      ],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/IyF8Rc5dyqSbXX7K"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "b1TrDSxAGY8holYK",
+      "executionResult": "FAILED",
+      "duration": 209.296,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:06:37.137Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/b1TrDSxAGY8holYK"
+    },
+    {
+      "execution": "remote-run",
+      "executionId": "nYipnxYufZQ8Zhxx",
+      "executionResult": "PASSED",
+      "duration": 123.63,
+      "totalTests": 1,
+      "failedCount": 0,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T10:03:54.290Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/nYipnxYufZQ8Zhxx"
+    },
+    {
+      "execution": "End to End-All-Sequential / Regression2-Sequential",
+      "executionId": "H3NmFLYsFrLJbTnA",
+      "executionResult": "FAILED",
+      "duration": 9295.284,
+      "totalTests": 50,
+      "failedCount": 14,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T07:44:54.461Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/H3NmFLYsFrLJbTnA"
+    },
+    {
+      "execution": "End to End-All-Parallel / Regression1-Parallel",
+      "executionId": "j71BIgeobmizt2jl",
+      "executionResult": "FAILED",
+      "duration": 13549.525,
+      "totalTests": 532,
+      "failedCount": 90,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T06:31:22.755Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/j71BIgeobmizt2jl"
+    },
+    {
+      "execution": "End to End-All-Parallel / Regression1-Parallel",
+      "executionId": "Sdp218bYgxDg2wLG",
+      "executionResult": "ABORTED",
+      "duration": 268.907,
+      "totalTests": 532,
+      "failedCount": 5,
+      "concurrency": 6,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T06:24:08.147Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/Sdp218bYgxDg2wLG"
+    },
+    {
+      "execution": "local-execution",
+      "executionId": "1Y2vyzQUae9D9AHr",
+      "executionResult": "FAILED",
+      "duration": 443.697,
+      "totalTests": 1,
+      "failedCount": 1,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T06:20:24.885Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/1Y2vyzQUae9D9AHr"
+    },
+    {
+      "execution": "e2e-Dashboard",
+      "executionId": "MADRsSrxPnbsJc7g",
+      "executionResult": "FAILED",
+      "duration": 539.282,
+      "totalTests": 21,
+      "failedCount": 8,
+      "concurrency": 8,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T06:11:15.809Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/MADRsSrxPnbsJc7g"
+    },
+    {
+      "execution": "e2e-Dashboard",
+      "executionId": "GqVRk1JU2V5kHu51",
+      "executionResult": "FAILED",
+      "duration": 526.657,
+      "totalTests": 21,
+      "failedCount": 9,
+      "concurrency": 8,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T05:58:19.831Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/GqVRk1JU2V5kHu51"
+    },
+    {
+      "execution": "End to End-All-Sequential / Regression2-Sequential",
+      "executionId": "ATjqZI2BK78fCLX2",
+      "executionResult": "ABORTED",
+      "duration": 3379.378,
+      "totalTests": 50,
+      "failedCount": 9,
+      "concurrency": 1,
+      "branch": "master",
+      "browser": [
+        "chrome"
+      ],
+      "startTime": "2023-12-20T05:00:35.502Z",
+      "turboMode": false,
+      "resultLabels": [],
+      "link": "https://app.testim.io/#/project/GUZ9xo1wN0RUPUbryvVA/runs/suites/ATjqZI2BK78fCLX2"
     }
   ],
   "metaData": {
-    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-1617454f-3662-48f8-adf3-f092aeb22610"
+    "requestId": "RQ-GUZ9xo1wN0RUPUbryvVA-9c2b2a35-af9d-4f51-a217-168dc931046d"
   }
 }

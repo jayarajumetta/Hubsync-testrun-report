@@ -1,5 +1,5 @@
 set branch="master"
-set execution="End to End-All-Sequential / Regression2-Sequential"
+set execution="End to End-All-Parallel / e2e-all"
 
 node src/get-executions.js -branch:%branch% -execution:%execution%
 node src/parse-execution.js  -execution:%execution%

@@ -1,6 +1,6 @@
 
 branch="master"
-execution="End to End-All-Sequential / Regression2-Sequential"
+execution="End to End-All-Parallel / e2e-all"
 node src/get-executions.js -branch:$branch -execution:"$execution"
 node src/parse-execution.js  -execution:"$execution"
 node src/extractFailedTestIDs.js
